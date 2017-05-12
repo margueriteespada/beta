@@ -50,7 +50,7 @@ templates_path = ['_templates']
 source_suffix = ['.rst', '.md']
 
 # The master toctree document.
-master_doc = 'table_des_matieres'
+master_doc = 'index'
 
 # General information about the project.
 project = u'vmap_doc'
