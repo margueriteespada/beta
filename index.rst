@@ -30,9 +30,9 @@ je vais tenter de mettre en *italique* puis en **gras**
 
 et je vais ensuite tenter de faire une liste numérotée 
 
--1 
--2
--3
+- 1 
+- 2
+- 3
 
 
 
