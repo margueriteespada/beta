@@ -22,7 +22,7 @@ table des matières
 * nouvelle entrée
 * encore une nouvelle entrée 
 * encore encore une nouvelle entrée 
-* et je peux continuer encore
+* new 
 
    chapitre1
 
