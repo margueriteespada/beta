@@ -22,7 +22,7 @@ table des matières
 * encore une nouvelle entrée 
 * encore encore une nouvelle entrée 
 * et je peux continuer encore
-* :ref:`chapitre1`
+* :ref:`chapitre1<chapitre1.rst>`
 **et de un**
 
 -- et de deux --
