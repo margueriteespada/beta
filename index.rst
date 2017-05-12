@@ -54,5 +54,7 @@ Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1\>`
 Le renvoi vers 'chapitre 1' est à l'adresse `/chapitre1.rst/>`
 Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1.rst\>`
 
+<a href="file:/chapitre1</a>
+
 
 
