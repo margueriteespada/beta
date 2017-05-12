@@ -18,7 +18,7 @@ table des matières
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-* :ref:`chapitre1`
+* :ref:`\chapitre1`
 *   chapitre1.rst
 *   /chapitre1
 
