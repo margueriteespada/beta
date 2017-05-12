@@ -1,12 +1,12 @@
 
 =========
-chapitre 1 
+====chapitre 1 ======
 =========================
 
 chapitre 1.1
 ==============
 
-sous chapitre 
+----sous chapitre ----
 ------------
 
 
