@@ -26,4 +26,13 @@ table des matières
 
 -- et de deux --
 
+je vais tenter de mettre en *italique* puis en **gras**
+
+et je vais ensuite tenter de faire une liste numérotée 
+
+-1 
+-2
+-3
+
+
 
