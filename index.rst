@@ -22,6 +22,7 @@ table des matières
 * encore une nouvelle entrée 
 * encore encore une nouvelle entrée 
 * et je peux continuer encore
+* :ref:`chapitre1`
 **et de un**
 
 -- et de deux --
