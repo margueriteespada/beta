@@ -21,4 +21,5 @@ Indices and tables
 * :ref:`introduction`
 * :ref:`chapitre 1`
 * :ref:`chapitre 2`
+* :ref:`chapitre 3`
 
