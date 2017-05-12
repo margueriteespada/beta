@@ -7,7 +7,7 @@ Welcome to vmap_doc's documentation!
 ====================================
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 7
    :caption: Contents:
 
 
@@ -19,7 +19,8 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 * :ref:`introduction`
-* :ref:`chapitre 1`
-* :ref:`chapitre 2`
-* :ref:`chapitre 3`
+* chapitre 1
+* chapitre 2
+* chapitre 3
+
 
