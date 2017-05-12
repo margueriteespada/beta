@@ -3,6 +3,12 @@
 chapitre 1 
 =========================
 
+chapitre 1.1
+==============
+
+sous chapitre 
+------------
+
 
 --Ceci est mon premier chapitre--
 
