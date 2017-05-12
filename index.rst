@@ -18,10 +18,10 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-nouvelle entrée
-encore une nouvelle entrée 
-encore encore une nouvelle entrée 
-et je peux continuer encore
+* : nouvelle entrée
+* : encore une nouvelle entrée 
+* : encore encore une nouvelle entrée 
+* : et je peux continuer encore
 **et de un**
 
 -- et de deux--
