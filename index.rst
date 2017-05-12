@@ -8,7 +8,7 @@ Documentation de vmap
 
 .. toctree::
    :maxdepth: 8
-   :caption: Contents:
+   :caption: table des matièress :
 
 
 
@@ -18,11 +18,12 @@ table des matières
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+* :ref:`chapitre1`
 * nouvelle entrée
 * encore une nouvelle entrée 
 * encore encore une nouvelle entrée 
 * et je peux continuer encore
-*    <chapitre1>
+
    chapitre1
 
  
