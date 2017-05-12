@@ -19,6 +19,9 @@ table des matières
 * :ref:`modindex`
 * :ref:`search`
 * :ref:`chapitre1`
+*   chapitre1.rst
+*   /chapitre1
+
 * nouvelle entrée
 * encore une nouvelle entrée 
 * encore encore une nouvelle entrée 
