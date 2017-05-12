@@ -1,6 +1,6 @@
-<chapitre1>
+
 =========
-====chapitre 1 ======
+====Chapitre 1 : Introduction à vmap ======
 =========================
 
 chapitre 1.1
