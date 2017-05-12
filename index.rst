@@ -42,5 +42,5 @@ table des matières
 
 renvoi vers la page de `Veremes <http://www.veremes.com/>`_
 
-revoi vers`chapitre1 </chapitre1/>`_
+revoi vers `chapitre1 </chapitre1/>`
 
