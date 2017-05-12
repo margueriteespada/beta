@@ -23,6 +23,7 @@ table des matières
 * encore encore une nouvelle entrée 
 * et je peux continuer encore
 *    <chapitre1>
+   chapitre1
 
  
 **et de un**
