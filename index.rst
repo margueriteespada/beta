@@ -24,6 +24,6 @@ Indices and tables
 * et je peux continuer encore
 **et de un**
 
-- et de deux-
+- et de deux -
 
 
