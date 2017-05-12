@@ -3,7 +3,7 @@
 ====Chapitre 1 : Introduction à vmap ======
 =========================
 
-chapitre 1.1
+ 1.1 Prérequis
 ==============
 
 ----sous chapitre ----
