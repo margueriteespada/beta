@@ -31,9 +31,10 @@ table des matières
 
 -- et de deux --
 
-je vais tenter de mettre en *italique* puis en **gras**
+ *italique* puis **gras**
 
-et je vais ensuite tenter de faire une liste numérotée 
+ une liste numérotée : 
+ 
 
 - 1 
 - 2
