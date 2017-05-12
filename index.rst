@@ -46,12 +46,10 @@ renvoi vers `chapitre1 </chapitre1>`
 :download: `Mon logiciel </chapitre1>`_
 
 Le renvoi vers 'chapitre 1' est à l'adresse `/chapitre1/>`
-
+Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1\>`
 
 Le renvoi vers 'chapitre 1' est à l'adresse `/chapitre1.rst/>`
+Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1.rst\>`
 
-Le renvoi vers 'chapitre 1' est à l'adresse `/chapitre1>`
 
-
-Le renvoi vers 'chapitre 1' est à l'adresse `/chapitre1>`
 
