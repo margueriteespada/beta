@@ -7,7 +7,7 @@ Documentation de vmap
 ====================================
 
 .. toctree::
-   :caption: Table des mat
+   :caption: sommaire
    :name: principale
    :maxdepth: 2
   
