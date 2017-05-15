@@ -9,7 +9,7 @@ Documentation de vmap Manuel Utilisateur
 .. toctree::
    :caption: sommaire
    :name: principale
-   :maxdepth: 2
+   :maxdepth: 1
   
  
    chapitre1
