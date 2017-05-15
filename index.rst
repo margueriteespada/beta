@@ -70,10 +70,4 @@ Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1.rst\>`
 
 <a href="file:/chapitre1</a>
 
-<a href="file://D:/doc/monfichier.pdf">monfichier</a>
-
-
-
-:ref:`my-reference-label`.
-
-sgsdhfs
+lundi 15 mai 2017
