@@ -39,6 +39,7 @@ table des matières
 
  une liste numérotée : 
  
+.. _my-reference-label: 
 
 - 1 
 - 2
@@ -60,13 +61,7 @@ Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1.rst\>`
 <a href="file://D:/doc/monfichier.pdf">monfichier</a>
 
 
-:doc:`chapitre1.rst`
 
+:ref:`my-reference-label`.
 
-:doc:`/chapitre1`
-
-:doc:`chapitre1`
-
-:role:`chapitre1 <chapitre1>`
-
-
+sgsdhfs
