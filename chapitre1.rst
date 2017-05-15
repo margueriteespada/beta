@@ -1,6 +1,7 @@
 
-
-***Chapitre 1 : Introduction à vmap***
+***
+Chapitre 1 : Introduction à vmap
+***
 
 
 ----sous chapitre ----
