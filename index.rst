@@ -38,10 +38,6 @@ table des matières
 
 .. _my-reference-label:
 
-Section to cross-reference
-
-   chapitre1
-
  
 **et de un**
 
