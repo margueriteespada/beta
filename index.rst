@@ -14,5 +14,5 @@ Documentation de vmap Manuel Utilisateur
  
    chapitre1
    chapitre2
-   objets_metier
+   objets_metiers
    
