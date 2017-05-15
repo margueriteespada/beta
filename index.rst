@@ -9,8 +9,8 @@ Documentation de vmap
 .. toctree::
    :maxdepth: 8
    :caption: table des matièress :
-   chapitre1
-   chapitre2
+     chapitre1
+     chapitre2
 
 
 
@@ -59,14 +59,6 @@ Section to cross-reference
 
 renvoi vers la page de `Veremes <http://www.veremes.com/>`_
 
-renvoi vers `chapitre1 </chapitre1>`
-:download: `Mon logiciel </chapitre1>`_
-
-Le renvoi vers 'chapitre 1' est à l'adresse `/chapitre1/>`
-Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1\>`
-
-Le renvoi vers 'chapitre 1' est à l'adresse `/chapitre1.rst/>`
-Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1.rst\>`
 
 <a href="file:/chapitre1</a>
 
