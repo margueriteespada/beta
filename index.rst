@@ -8,9 +8,13 @@ Documentation de vmap
 
 .. toctree::
    :maxdepth: 2
-   
-     /chapitre1
-     /chapitre2
+  
+   intro
+   strings
+   chapitre1
+   datatypes
+   numeric
+
 
 
 
