@@ -28,6 +28,9 @@ table des matières
 * encore encore une nouvelle entrée 
 * new 
 
+
+.. _my-reference-label:
+
    chapitre1
 
  
@@ -39,7 +42,7 @@ table des matières
 
  une liste numérotée : 
  
-.. _my-reference-label: 
+
 
 - 1 
 - 2
