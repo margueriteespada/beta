@@ -45,6 +45,9 @@ table des matières
 - 2
 - 3
 
+
+:ref:`my-reference-label`.
+
 renvoi vers la page de `Veremes <http://www.veremes.com/>`_
 
 renvoi vers `chapitre1 </chapitre1>`
