@@ -7,11 +7,10 @@ Documentation de vmap
 ====================================
 
 .. toctree::
-   :maxdepth: 8
-   :caption: table des matièress :
+   :maxdepth: 2
+   
      chapitre1
      chapitre2
-
 
 
 
