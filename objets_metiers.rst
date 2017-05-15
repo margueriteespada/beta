@@ -1,6 +1,6 @@
 
 *************
-Chapitre 1 
+Gestion des objets métiers
 ************* 
 
 Chapitre 1.1  
