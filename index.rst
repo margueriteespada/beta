@@ -11,12 +11,10 @@ Documentation de vmap
    :name: principale
    :maxdepth: 2
   
-   intro
-   strings
+ 
    chapitre1
    chapitre2
-   datatypes
-   numeric
+
 
 
 
@@ -27,12 +25,11 @@ table des matières
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-* :ref:`\chapitre1`
 * :ref:`chapitre1`
 * :ref:`chapitre2`
 
 
-* nouvelle entréeeeee
+* nouvelle entrée
 * encore une nouvelle entrée 
 * encore encore une nouvelle entrée 
 * new 
