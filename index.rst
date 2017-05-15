@@ -29,7 +29,10 @@ table des matières
 * new 
 
 
+
 .. _my-reference-label:
+
+Section to cross-reference
 
    chapitre1
 
