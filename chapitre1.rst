@@ -3,19 +3,19 @@
 Chapitre 1 
 ************* 
 
-Titre de niveau 1 
+Chapitre 1.1  
 ***************** 
 
-Titre de niveau 2 
+Chapitre 1.1.1  
 ================= 
 
-Titre de niveau 3 
+Chapitre 1.1.1.1
 ----------------- 
 
-Titre de niveau 4 
+Chapitre 1.1.1.1.1 
 ~~~~~~~~~~~~~~~~~ 
 
-Titre de niveau 5 
+Chapitre 1.1.1.1.1.1
 +++++++++++++++++
 
 
