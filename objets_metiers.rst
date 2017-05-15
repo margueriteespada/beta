@@ -3,7 +3,7 @@
 Gestion des objets métiers
 ************* 
 
-Chapitre 1.1  
+Définition
 ***************** 
 
 Chapitre 1.1.1  
@@ -18,4 +18,5 @@ Chapitre 1.1.1.1.1
 Chapitre 1.1.1.1.1.1
 +++++++++++++++++
 
-
+Exemple
+***************** 
