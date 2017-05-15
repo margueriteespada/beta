@@ -1,11 +1,8 @@
 
-***
-Chapitre 1 : Introduction à vmap
-***
 
 
-----sous chapitre ----
-------------
+----chapitre numero 1 ----
+
 
 
 --Ceci est mon premier chapitre--
