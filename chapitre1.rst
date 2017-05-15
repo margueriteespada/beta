@@ -1,6 +1,6 @@
 
 
-====Chapitre 1 : Introduction à vmap====
+***Chapitre 1 : Introduction à vmap***
 
 
 ----sous chapitre ----
@@ -16,5 +16,5 @@ renvoi vers la page de `Veremes <http://www.veremes.com/>`_
 
 
 
-paragraphe 1
-------------
++++paragraphe 1+++
+
