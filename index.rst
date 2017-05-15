@@ -65,4 +65,8 @@ Le renvoi vers 'chapitre 1' est à l'adresse `\chapitre1.rst\>`
 
 :doc:`/chapitre1`
 
+:doc:`chapitre1`
+
+:role:`chapitre1 <chapitre1>`
+
 
