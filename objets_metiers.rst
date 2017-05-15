@@ -3,9 +3,7 @@
 Gestion des objets métiers
 ************* 
 
-.. image:: /liste_objets_metier.png
-  ::scale: 50 %
-  ::align: center
+.. image:: liste_objets_metier.png
   
 
 
