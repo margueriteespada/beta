@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Documentation de vmap
+Documentation de vmap Manuel Utilisateur
 ====================================
 
 .. toctree::
@@ -19,7 +19,7 @@ Documentation de vmap
 
 
 
-table des matières
+table des matières de la documentation
 ==================
 
 * :ref:`genindex`
