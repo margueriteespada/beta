@@ -14,6 +14,7 @@ Documentation de vmap
    intro
    strings
    chapitre1
+   chapitre2
    datatypes
    numeric
 
