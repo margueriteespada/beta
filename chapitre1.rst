@@ -1,11 +1,15 @@
 
 
 
-----chapitre numero 1 ----
+----
+chapitre numero 1
+----
 
 
 
---Ceci est mon premier chapitre--
+--
+Ceci est mon premier chapitre
+--
 
 
 il faudrait que je tombe dessus depus l'index 
