@@ -4,8 +4,9 @@ Gestion des objets métiers
 ************* 
 
 .. image:: liste_objets_metier.png
-  
-
+ :scale: 50 %
+ 
+   
 Définition
 ***************** 
 Un objet métier est une entié qui permet d'associer une couche aux attributs d'une table de base de données. De la sorte les attributs associés à une couche sont affichageables et éditables. 
