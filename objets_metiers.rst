@@ -13,5 +13,5 @@ Définition
 
 
 
-Exemple : Création de l'objet métier Lampe
+Exemple : Création de l'objet métier : Lampe
 ***************** 
