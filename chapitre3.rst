@@ -1,1 +1,2 @@
-Installation de vMap 
+Installation de vMap
+*********************
