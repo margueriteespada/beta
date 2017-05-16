@@ -16,5 +16,5 @@ Documentation de vmap Manuel Utilisateur
    chapitre2
    chapitre3
    Gestion des utilisateurs
-   objets_metiers
+   Gerstion des objets_metiers
    
