@@ -16,7 +16,7 @@ Le mode Développement permet l'ajout, l'édition et la suppression d'objets mé
 
 Création d'un objet métier : l'exemple des lampes
 ******************************************** 
-La création d'un oibjet métier s'opère en deux temps : 
+La création d'un objet métier s'opère en deux temps : 
 
-1 La déclaration de l'objet et de ses paramètres d'affichage dans la couche 
-2 La configuration du formumaire de création de l'objet
+1.  La déclaration de l'objet et de ses paramètres d'affichage dans la couche 
+2.  La configuration du formumaire de création de l'objet
