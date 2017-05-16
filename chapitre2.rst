@@ -1,19 +1,5 @@
 
 *************
-Chapitre 2
+Les composants loigiciels de vMap 
 ************* 
 
-Chapitre 2.1  
-***************** 
-
-Chapitre 2.1.1  
-================= 
-
-Chapitre 2.1.1.1
------------------ 
-
-Chapitre 2.1.1.1.1 
-~~~~~~~~~~~~~~~~~ 
-
-Chapitre 2.1.1.1.1.1
-+++++++++++++++++
