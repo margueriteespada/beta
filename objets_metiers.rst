@@ -25,7 +25,7 @@ La création d'un objet métier s'opère en deux temps :
 Déclaration d'un objet métier 
 +++++++++++++++++++++++++++++
 .. image:: creation_objet_metier.png
-
+ :scale: 80 %
 
 
 Construction des formulaires d'un objet métier 
