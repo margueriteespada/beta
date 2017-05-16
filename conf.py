@@ -54,8 +54,9 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'vmap_doc'
-copyright = u'2017, espada'
-author = u'espada'
+#copyright = u'2017, espada'
+copyright = u'2017, M Espada'
+author = u'M Espada'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
