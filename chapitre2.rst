@@ -1,5 +1,5 @@
 
 *************
-Les composants loigiciels de vMap 
-************* 
+Les composants logiciels de vMap 
+********************************* 
 
