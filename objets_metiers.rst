@@ -14,7 +14,7 @@ Un objet métier est une entié qui permet d'associer une couche aux attributs d
 Le mode Développement permet l'ajout, l'édition et la suppression d'objets métier. 
 
 
-Création d'un objet métier : Exemple des lampes
+Création d'un objet métier
 ******************************************** 
 La création d'un objet métier s'opère en deux temps : 
 
