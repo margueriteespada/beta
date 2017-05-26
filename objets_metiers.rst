@@ -39,6 +39,15 @@ Renseigner les champs suivants :
    :scale: 50 %
    :align: center
    :alt: Titre de l'objet tel qu'il apparaît dans le formulaire de création d'objet
+   
+   * Champs id :  l'identifiant de la table. 
+   
+   * Base de données : Nom de la base de données à laquelle se connecter
+   
+   * Schéma : schéma de la base de données 
+   
+   * Table : table de la base de données 
+   
 
 2.2. Construction des formulaires d'un objet métier 
 ++++++++++++++++++++++++++++++++++++++++++++
