@@ -51,7 +51,7 @@ Renseigner les champs suivants :
 
 * SQL Summary : requête SQL pour définir les champs à afficher dans l'infobulle d'un objet
 
-* SQL List : requête SQL pour défininr les champas à afficher dans la liste des objets sélectionnés
+* SQL List : requête SQL pour défininr les champs à afficher dans la liste des objets sélectionnés
 
 
 
