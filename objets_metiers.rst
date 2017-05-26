@@ -51,12 +51,9 @@ Renseigner les champs suivants :
 
 * SQL Summary : requête SQL pour définir les champs à afficher dans l'infobulle d'un objet
 
-* SQL List : requête SQL pour défininr les champs à afficher dans la liste des objets sélectionnés dun requêteur. 
+* SQL List : requête SQL pour définir les champs à afficher dans la liste des objets sélectionnés dun requêteur : 
 
-
-
-
-   
+.. image:: liste_requeteur.png
 
 
 
