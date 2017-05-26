@@ -29,8 +29,10 @@ La création d'un objet métier s'opère en deux temps :
 
 Renseigner les champs suivants : 
 
-Titre : nom de l'objet métier tel qu'il apparaîtra dans le requêteur et dans le formulaire de création d'objet : 
+**Titre** : nom de l'objet métier tel qu'il apparaîtra dans le requêteur et dans le formulaire de création d'objet : 
+
 .. image:: lampe_requeteur.png
+
 .. image:: lampe_creation.png
 
 
