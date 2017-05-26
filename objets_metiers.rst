@@ -27,6 +27,10 @@ La création d'un objet métier s'opère en deux temps :
 .. image:: creation_objet_metier.png
  :scale: 80 %
 
+Renseigner les champs suivants : 
+
+Titre : nom de l'objet métier tel qu'il apparaîtra dans le requêteur : 
+
 
 2.2. Construction des formulaires d'un objet métier 
 ++++++++++++++++++++++++++++++++++++++++++++
