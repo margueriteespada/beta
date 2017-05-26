@@ -41,9 +41,9 @@ Renseigner les champs suivants :
    :align: center
    :alt: Titre de l'objet tel qu'il apparaît dans le formulaire de création d'objet
 
-* Champs id :  l'identifiant de la table. 
+* Champs id :  champ identifiant de la table. 
    
-* Base de données : Nom de la base de données à laquelle se connecter
+* Base de données : nom de la base de données à laquelle se connecter
    
 * Schéma : schéma de la base de données 
    
