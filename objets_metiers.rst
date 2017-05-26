@@ -35,6 +35,16 @@ Renseigner les champs suivants :
    :scale: 50 %
    :align: center
    :alt: Titre de l'objet tel qu'il apparaît dans le requêteur
+   . image:: picture.jpeg
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+   
+   
+   
+   
          
       
       
