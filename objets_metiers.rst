@@ -34,13 +34,7 @@ Renseigner les champs suivants :
 .. image:: lampe_requeteur.png
    :align: center
    :alt: Titre de l'objet tel qu'il apparaît dans le requêteur
-   :height: 100px
-   :width: 200 px
-   :scale: 50 %
-   :alt: alternate text
-   :align: right
-   
-         
+
 .. image:: lampe_creation.png
    :scale: 50 %
    :align: center
