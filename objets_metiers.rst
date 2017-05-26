@@ -34,10 +34,14 @@ Renseigner les champs suivants :
 .. image:: lampe_requeteur.png
    :scale: 50 %
    :align: center
-   
+   :alt: Titre de l'objet tel qu'il apparaît dans le requêteur
+         
+      
+      
 .. image:: lampe_creation.png
    :scale: 50 %
    :align: center
+   :alt: Titre de l'objet tel qu'il apparaît dans le formulaire de création d'objet
 
 2.2. Construction des formulaires d'un objet métier 
 ++++++++++++++++++++++++++++++++++++++++++++
