@@ -7,14 +7,14 @@ Gestion des objets métiers
  :scale: 50 %
  
    
-1 -Définition
+1. Définition
 ***************** 
 Un objet métier est une entié qui associe à un calque, les attributs d'une table de base de données. De la sorte les attributs associés au calque sont affichables et éditables. 
 
 Le mode Développement permet l'ajout, l'édition et la suppression d'objets métier. 
 
 
-2-Création d'un objet métier
+2. Création d'un objet métier
 ******************************************** 
 La création d'un objet métier s'opère en deux temps : 
 
@@ -22,13 +22,13 @@ La création d'un objet métier s'opère en deux temps :
 2.  La construction des formulaires d'affichage, de création, d'édition et de recherche de l'objet métier via le studio. 
 
 
-2-1 Déclaration d'un objet métier 
+2.1. Déclaration d'un objet métier 
 +++++++++++++++++++++++++++++
 .. image:: creation_objet_metier.png
  :scale: 80 %
 
 
-2-2 Construction des formulaires d'un objet métier 
+2.2. Construction des formulaires d'un objet métier 
 ++++++++++++++++++++++++++++++++++++++++++++
 
  4 formulaires sont paramétrables : 
