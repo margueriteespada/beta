@@ -32,22 +32,15 @@ Renseigner les champs suivants :
 * Titre: nom de l'objet métier tel qu'il apparaîtra dans le requêteur et dans le formulaire de création d'objet : 
 
 .. image:: lampe_requeteur.png
-   :scale: 50 %
    :align: center
    :alt: Titre de l'objet tel qu'il apparaît dans le requêteur
-   . image:: picture.jpeg
    :height: 100px
    :width: 200 px
    :scale: 50 %
    :alt: alternate text
    :align: right
    
-   
-   
-   
          
-      
-      
 .. image:: lampe_creation.png
    :scale: 50 %
    :align: center
