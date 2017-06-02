@@ -7,7 +7,7 @@ Documentation de vmap Manuel Utilisateur
 ====================================
 
 .. toctree::
-   :caption: sommaire
+   :caption: Sommaire
    :name: principale
    :maxdepth: 1
   
@@ -16,4 +16,5 @@ Documentation de vmap Manuel Utilisateur
    chapitre2
    chapitre3
    objets_metiers
+   
    
