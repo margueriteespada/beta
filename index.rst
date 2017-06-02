@@ -12,8 +12,7 @@ Documentation de vmap Manuel Utilisateur
    :maxdepth: 1
   
  
-   chapitre1
-   chapitre2
+   MapServer
    calques_cartes
    objets_metiers
    
