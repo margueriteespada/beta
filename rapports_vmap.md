@@ -1,22 +1,22 @@
 # Rapports objets métiers
 
-![Liste des rapports](liste_rapports_objets_metier.png)
+![Liste des rapports](images/liste_rapports_objets_metier.png)
 
 ## 1. Définition
 Un rapport sur objet métier permettra à l'utilisateur de générer des fichiers .pdf ou .doc sur des informations d'un objet sélectionné dans le panier.
 Il y a différents types de rapports: 
 
- - Les rapports sur un élément ![logo rapport simple](logo_rapport_simple.png)
- - Les rapports sur plusieurs éléments ![logo rapport multi](logo_rapport_multi.png)
+ - Les rapports sur un élément ![logo rapport simple](images/logo_rapport_simple.png)
+ - Les rapports sur plusieurs éléments ![logo rapport multi](images/logo_rapport_multi.png)
 
 Si un utilisateur sélectionne plusieurs entités et lance un rapport sur un élément, alors plusieurs fichiers seront générés, à contrario si il lance un rapport sur plusieurs éléments, un seul fichier contenant les informations de chacun des éléments sera généré.
 
-![Exemple de rapport vMap en pdf](exemple_rapport_pdf.png)
+![Exemple de rapport vMap en pdf](images/exemple_rapport_pdf.png)
 
 ## 2. Utilisation
 Pour générer un rapport sur objet métier, il suffit de sélectionner un objet sur la carte en cliquant dessus, de l'ajouter au panier, puis sélectionner les objets qui vous intéressent dans le panier et enfin à l'aide du bouton "Rapports" générer le rapport voulu.
 
-![creation_rapport_vmap](creation_rapport_vmap.png)
+![Création d'un rapport vMap](images/creation_rapport_vmap.png)
 
 ## 3. Administration
 Dans l'interface d'administration nous distinguons les éléments suivants:
@@ -30,7 +30,7 @@ Dans l'interface d'administration nous distinguons les éléments suivants:
  - Définition HTML: permet de configurer la mise en page
  - Objets JSON: permet une configuration plus avancée
 
-![administration_rapports](administration_rapports.png)
+![Administration d'un rapport vMap](images/administration_rapports.png)
 
 ### 3.1. Configuration de la définition HTML
 Dans cette partie vous allez configurer la mise en page de votre rapport, pour cela il est conceillé d'avoir trois parties:
