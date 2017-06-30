@@ -156,3 +156,170 @@ Exemple:
 	"target":"#img1"
 }
 ```
+
+
+## 4. Exemple complet
+
+### Définition HTML
+```html
+<!--Style-->
+<style>
+    #A4_landscape_template {
+        text-align: center;
+        width: 29.7cm;
+        padding: 40px;
+    }
+    #map_legend{
+        margin-left: 25px;
+        text-align: left;
+    }
+    #map_image {
+        background-color: #DFDFDF;
+        width: 100%;
+        height: 100%;
+    }
+    #map_image2 {
+        background-color: #DFDFDF;
+        width: 100%;
+        height: 100%;
+    }
+    #map_overview {
+        background-color: #DFDFDF;
+        height: 4cm;
+        width: 4cm;
+    }
+    .border_container{
+        border: 1px solid black;
+    }
+    .description_box{
+        text-align: left;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .fiche_urb_label {
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    #img1{
+        height: 1cm;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    .infos_column{
+        height:100%; 
+        width:100%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+</style>
+
+<!-- A4 print Template -->
+<div id="A4_landscape_template">
+
+    <div class="row" style="padding-left: 10px;">
+        <div class="col-xs-4">
+            <div class="border_container infos_column">
+                <img id="img1" src="images/transparent.png">
+                <hr>
+                <h4>Fiche Route</h4>
+                <hr>
+
+                <!--Description de la route-->
+                <div class="description_box border_container">
+                    <label class="fiche_urb_label">Nom: {{BO.nom}}</label>
+                    <label class="fiche_urb_label">Id: {{BO.route_id}}</label>
+                    <label class="fiche_urb_label">Auteur: {{BO.auteur}}</label>
+                    <label class="fiche_urb_label">Date d'édition: {{BO.date_maj}}</label>
+                    <label class="fiche_urb_label">Echelle: {{map_scale}}</label>
+                </div>
+
+                <br>
+
+                <!--Description des lampes de la route-->
+                <div ng-repeat="oLampe in aLampes" ng-if="oLampe.lampe_id!=undefined" class="description_box child_description_box border_container">
+                    <label class="fiche_urb_label">Lampe: {{oLampe.nom}}</label>
+                    <label class="fiche_urb_label">Id: {{oLampe.lampe_id}}</label>
+                    <label class="fiche_urb_label">Puissance: {{oLampe.puissance}}</label>
+                    <label class="fiche_urb_label">Allumée: {{oLampe.allume ? 'Oui' : 'Non'}}</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-8" style="height: 710px">
+            <div style="height: 100%; border: 1px solid black;">
+                <img id="map_image" src="images/transparent.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  setTimeout(function () {
+
+    // Pagination: si un .child_description_box est scindé, alors il passe sur la deuxième page
+    var parent2 = null;
+        $('.child_description_box').each(function(){
+          var iTop = $(this).position().top;
+          var iHeight = $(this).height();
+          var iBottom = iTop + iHeight;
+          var pageHeight = 793.69;
+          var pageTolerance = 700;
+
+          if(iBottom > pageTolerance){
+
+            var parentCreated = false;
+            var child = this;
+            var parent = $(child).parent();
+            var parentParent = parent.parent();
+
+            if (parent2 === null) {
+                parent2 = parent.clone().empty();
+                parentCreated = true
+            }
+
+            parent2.appendTo(parentParent);
+
+            if (parentCreated) {
+                html = "<div style='height: "+ (pageHeight - iTop) +"px'></div>";
+                $(html).insertBefore(parent2);
+				parent2.append('<br>');
+            }
+			parent2.append(child);
+        }
+    });
+});
+	$('.infos_column').parent().height($('.infos_column').parent().parent().height());
+</script>
+```
+
+### Objets JSON
+```json
+[{
+	"type":"map",
+	"target":"#map_image",
+	"map_id":120,
+	"resolution_coeff":1,
+	"scale_target":"map_scale"
+}, {
+	"type":"webservice",
+	"ressource":"vitis/genericquerys",
+	"params":{
+		"schema":"sig",
+		"table":"lampe",
+		"filter":"{\"column\":\"route_id\", \"compare_operator\":\"=\", \"value\": \"{{BO.route_id}}\"}"
+	},
+	"target": "aLampes"
+}, {
+	"type":"image",
+	"imageUrl":"data:image/png;base64,iVBORw0KGgoAAAANSUhE...",
+	"target":"#img1"
+}, {
+	"type":"object",
+	"content":{
+		"company":"Veremes"
+	},
+	"target": "scope"
+}]
+```
