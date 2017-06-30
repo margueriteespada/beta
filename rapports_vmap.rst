@@ -1,7 +1,7 @@
 Rapports objets métiers
 =======================
 
-.. figure:: liste_rapports_objets_metier.png
+.. figure:: images/liste_rapports_objets_metier.png
    :alt: Liste des rapports
 
    Liste des rapports
@@ -21,7 +21,7 @@ un élément, alors plusieurs fichiers seront générés, à contrario si il
 lance un rapport sur plusieurs éléments, un seul fichier contenant les
 informations de chacun des éléments sera généré.
 
-.. figure:: exemple_rapport_pdf.png
+.. figure:: images/exemple_rapport_pdf.png
    :alt: Exemple de rapport vMap en pdf
 
    Exemple de rapport vMap en pdf
@@ -34,10 +34,10 @@ objet sur la carte en cliquant dessus, de l'ajouter au panier, puis
 sélectionner les objets qui vous intéressent dans le panier et enfin à
 l'aide du bouton "Rapports" générer le rapport voulu.
 
-.. figure:: creation_rapport_vmap.png
-   :alt: creation\_rapport\_vmap
+.. figure:: images/creation_rapport_vmap.png
+   :alt: Création d'un rapport vMap
 
-   creation\_rapport\_vmap
+   Création d'un rapport vMap
 
 3. Administration
 -----------------
@@ -55,10 +55,10 @@ suivants:
 -  Définition HTML: permet de configurer la mise en page
 -  Objets JSON: permet une configuration plus avancée
 
-.. figure:: administration_rapports.png
-   :alt: administration\_rapports
+.. figure:: images/administration_rapports.png
+   :alt: Administration d'un rapport vMap
 
-   administration\_rapports
+   Administration d'un rapport vMap
 
 3.1. Configuration de la définition HTML
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -419,5 +419,5 @@ Objets JSON
         "target": "scope"
     }]
 
-.. |logo rapport simple| image:: logo_rapport_simple.png
-.. |logo rapport multi| image:: logo_rapport_multi.png
+.. |logo rapport simple| image:: images/logo_rapport_simple.png
+.. |logo rapport multi| image:: images/logo_rapport_multi.png
