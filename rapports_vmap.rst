@@ -4,8 +4,6 @@ Rapports objets métiers
 .. figure:: images/liste_rapports_objets_metier.png
    :alt: Liste des rapports
 
-   Liste des rapports
-
 1. Définition
 -------------
 
@@ -24,8 +22,6 @@ informations de chacun des éléments sera généré.
 .. figure:: images/exemple_rapport_pdf.png
    :alt: Exemple de rapport vMap en pdf
 
-   Exemple de rapport vMap en pdf
-
 2. Utilisation
 --------------
 
@@ -36,8 +32,6 @@ l'aide du bouton "Rapports" générer le rapport voulu.
 
 .. figure:: images/creation_rapport_vmap.png
    :alt: Création d'un rapport vMap
-
-   Création d'un rapport vMap
 
 3. Administration
 -----------------
@@ -57,8 +51,6 @@ suivants:
 
 .. figure:: images/administration_rapports.png
    :alt: Administration d'un rapport vMap
-
-   Administration d'un rapport vMap
 
 3.1. Configuration de la définition HTML
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
