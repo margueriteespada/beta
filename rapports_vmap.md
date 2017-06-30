@@ -159,6 +159,8 @@ Exemple:
 
 
 ## 4. Exemple complet
+Ci-dessous un exemple complet actuellement visible sur https://demo.veremes.net/vmap/?map_id=29
+Dans cet exemple on se situe dans un projet d'éclairage public, on y trouve deux entités: les routes et le lampes. Chaque lampe est associée à une route
 
 ### Définition HTML
 ```html
