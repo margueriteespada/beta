@@ -15,6 +15,7 @@ Documentation de vmap Manuel Utilisateur
    MapServer
    calques_cartes
    objets_metiers
+   rapports_vmap
    
    
    
