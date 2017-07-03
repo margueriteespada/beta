@@ -1,7 +1,3 @@
-.. role:: math(raw)
-   :format: html latex
-..
-
 Services web (web services)
 ===========================
 
@@ -26,17 +22,17 @@ Exemple de requête permettant de lister les cartes vMap
 
 ::
 
-    https://corbieres/vmap_rest/vmap/maps?token=...
+    https://corbieres/vmap_rest/vmap/maps
 
 Exemple de requête permettant de voir les informations de la carte ayant
 pour identifiant le nombre 15
 
 ::
 
-    https://corbieres/vmap_rest/vmap/maps/{15}?token=...
+    https://corbieres/vmap_rest/vmap/maps/{15}
 
-Ainsi l'API-REST retournera au client un objet JSON où XML contenant les
-informations demandées:
+Ainsi l'API-REST retournera au client un résultat JSON où XML contenant
+les informations demandées:
 
 .. code:: json
 
@@ -135,19 +131,22 @@ faire interṕréter comme des requêtes GET:
 ^^^^^^^^^^^^^^^^
 
 Permet de définir l'ordre d'affichage en cas ou il y ait plusieurs
-données. Par défaut il vaudra l'identifiant de la ressource
+données, par défaut il vaudra l'identifiant de la ressource
 
 2.2.2. sort\_order
 ^^^^^^^^^^^^^^^^^^
 
 Couplé au paramètre "order\_by" il permet de définir l'ordre avec les
-valeurs suivantes: - asc: ordre ascendent - desc: ordre descendant
+valeurs suivantes:
+
+-  asc: ordre ascendent
+-  desc: ordre descendant
 
 2.2.3. limit
 ^^^^^^^^^^^^
 
 Si le paramètre limit est fourni, alors le tableau retourné se limitera
-à n éléments
+à "n" éléments
 
 2.2.4. offset
 ^^^^^^^^^^^^^
@@ -158,8 +157,8 @@ permètre par exemple d'effectuer une pagination sur une liste
 2.2.5. attributs
 ^^^^^^^^^^^^^^^^
 
-Définit les attributs devant être retournés par le client, pour le
-renseigner il faudra écrire ces attributs én les séparant avec le
+Définit les attributs qui seront retournés par le client, pour les
+renseigner il faudra écrire ces attributs en les séparant par le
 caractère "\|"
 
 2.2.6. distinct
@@ -174,8 +173,8 @@ Donne la possibilité à l'utilisteur de filtrer les données, pour cela il
 faudra écrire un objet JSON composé de **relations** et
 d'\ **opérateurs**.
 
-2.2.7.1. Définition "relations"
-'''''''''''''''''''''''''''''''
+2.2.7.1. Relations
+''''''''''''''''''
 
 Les relations définissent le type de condition à utiliser celons la
 structure suivante:
@@ -185,39 +184,39 @@ structure suivante:
     {
         "relation": "AND",
         "operators":[{
-            ...
+            "..."
         }, {
-            ...
+            "..."
         }]
     }
 
 Ici on demande d'ajouter les filtres définis par les opérateurs celons
-la relation "AND", on autait également utiliser une relation "OR".
+la relation "AND", on autait pu également utiliser une relation "OR".
 
-Pour l'instant celons l'exemple ci-dessus, on peut faire du "AND" ou du
-"OR", il est également possible de faire les deux en même temps en
-incormorant une relation conne ci c'était un opérateur:
+Il est également possible de faire dans une même requête du AND et du OR
+en incormorant une relation comme ci c'était un opérateur:
 
 .. code:: json
 
     {
         "relation": "AND",
         "operators":[{
-            ..
+            "..."
         }, {
             "relation": "OR",
             "operators": [{
-                ...
+                "..."
             }, {
-                ...
+                "..."
             }]
         }]
     }
 
-Ainsi on obtiendra une requête constituée de AND et de OR.
+Ainsi on obtiendra une requête constituée de AND et de OR (voir
+l'exemple ci-après).
 
-2.2.7.2. Définition "opérateurs"
-''''''''''''''''''''''''''''''''
+2.2.7.2. Opérateurs
+'''''''''''''''''''
 
 Les opérateurs sont plus simples à comprendre, ils se composent de trois
 ou quatre arguments:
@@ -238,8 +237,8 @@ La structure est la suivante:
         "column": "...",
         "compare_operator": "...",
         "value": "...",
-        compare_operator_options: {
-            ... : ...
+        "compare_operator_options": {
+            "..." : "..."
         }
     }
 
@@ -249,7 +248,7 @@ La structure est la suivante:
 Pour être plus parlant, voici quelques exemples avec leur équivalent
 sous forme SQL.
 
-En utilisant une relation AND on peut filtrer sur plusieurs oérateurs:
+En utilisant une relation AND on peut filtrer sur plusieurs opérateurs:
 
 .. code:: json
 
@@ -330,8 +329,8 @@ complexes:
 
 --------------
 
-On peut utiliser "compare\_operator" = "IN" si les valeurs sont situées
-dans un tableau:
+On peut utiliser "compare\_operator" = "IN" en utilisant des valeurs
+situées dans un tableau:
 
 .. code:: json
 
@@ -382,7 +381,7 @@ suivies ou précédées du caractère "%":
 
 --------------
 
-En tulilisant "compare\_operator\_options.case\_insensitive" sur un type
+En ulilisant "compare\_operator\_options.case\_insensitive" sur un type
 "LIKE" on peut rendre le filtre insensible à la casse:
 
 .. code:: json
@@ -393,7 +392,7 @@ En tulilisant "compare\_operator\_options.case\_insensitive" sur un type
         "compare_operator_options":{
             "case_insensitive": true
         },
-        "value":"laur"
+        "value":"%laur%"
     }
 
 Équivalent SQL
@@ -427,7 +426,7 @@ On peut effectuer des intersections géométriques utilisant PostGIS:
 
     {
         "column":"geom",
-        "compare_operator":"intersect"
+        "compare_operator":"intersect",
         "value":"SRID=3857;POINT(349627.744690664 5237367.243157785)"
     }
 
@@ -469,8 +468,9 @@ quelle type de géométrie s'appliquera le buffer:
 ------------------------------------------------------------
 
 Dans une installation classique, les web services se trouvent sous forme
-de dossiers dans le répertoire vmap/vas/rest/ws dans lequel se trouvent
-les fichiers indispensables ainsi que ses ressources.
+de dossiers dans le répertoire vmap/vas/rest/ws. Dans ces dossiers se
+trouvent les fichiers indispensables ainsi que les ressources des web
+services.
 
 Dans cet exemple nous allons créer un web service "customWS" dans lequel
 nous allons créer une ressource "villes"
@@ -491,7 +491,7 @@ suivants:
 3.2. Création de la première ressource
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Dans cet exemple nous cherchons à créer la reccource "villes" qui
+Dans cet exemple nous cherchons à créer la ressource "villes" qui
 permettra de lister les villes contenues dans la table "f\_villes\_l93"
 installée par défaut avec vMap.
 
@@ -515,8 +515,8 @@ suivants:
     require_once 'CustomWS.class.inc';
     require_once __DIR__ . '/../../class/vitis_lib/Connection.class.inc';
 
-Require de la classe mère du web service ainsi que la classe permettant
-d'effectuer des connexions à la base de données.
+Inclusion de la classe mère du web service ainsi que la classe
+permettant d'effectuer des connexions à la base de données.
 
 3.2.1.2 Classe
 ''''''''''''''
@@ -602,15 +602,15 @@ commentaire de la fonction utilisée pour décrire aux développeurs ce que
 fait la fonction.
 
 Les paramètres décrits dans les commentaires swagger passés dans le
-chemin l'URL (comme ici "*code*") seront disponibles via la variable
-**$this->aPath**.
+chemin l'URL par la relation in="path"(comme ici "*code*") seront
+disponibles via la variable **$this->aPath**.
 
 Les paramètres décrits dans les commentaires swagger passés dans l'URL
-(comme ici "*token*") seront disponibles via la variable
-**$this->aValues**.
+par la relation in="query" (comme ici "*token*") seront disponibles via
+la variable **$this->aValues**.
 
 La ligne **require $this->sRessourcesFile** permet de récupérer le
-fcontenu du ichier *CustomWS.class.sql.inc*.
+contenu du fichier *CustomWS.class.sql.inc*.
 
 La fonction **$this->getFields** permet de récupérer en base de données
 les informations la ville en question en utilisant le paramètre "*code*"
@@ -755,8 +755,8 @@ instanciée.
     }
 
 Tous les paramètres génériques sont listés dans les commentaires
-swagger, et sont siponibles sur les variables
-**:math:`this->aPath** et **`\ this->aValues**.
+swagger, et sont siponibles sur les variables \*\* $this->aPath \*\* et
+\*\* $this->aValues \*\*.
 
 Ici c'est la fonction **genericGet()** qui est utilisée et la fonction
 retourne du texte.
@@ -769,8 +769,9 @@ d'aller chercher en base de données les informations d'une table et de
 les renvoyer.
 
 Imaginons que l'on veuille dans la classe Ville, faire une deuxième
-requête en base de données définie dans *CustomWS.class.sql.inc* pour
-aller chercher les monuments associés à la ville.
+requête en base de données (cette fois définie dans
+*CustomWS.class.sql.inc*) pour aller chercher les monuments associés à
+la ville.
 
 *CustomWS.class.sql.inc*:
 
@@ -810,8 +811,8 @@ fonction executeWithParams() qui va executer une requête avec un tableau
 de paramètres passé en option.
 
 **Il ne faut surtout pas concaténer des variables à une requête SQL au
-risque d'exposer l'application à des
-`SQLi <https://fr.wikipedia.org/wiki/Injection_SQL>`__.**
+risque d'exposer l'application à une faille de type
+`SQLi <https://fr.wikipedia.org/wiki/Injection_SQL>`__ .**
 
 Il faut écrire dans la requête une balise contenant le nom de la
 variable, et fournir un tableau de variables à executeWithParams().
@@ -824,7 +825,7 @@ Les différents formats sont:
 -  **quoted\_string**: comme string mais pour intégrer des caractères
    spéciaux ex: 'ma lampe%'
 -  **column\_name**, **schema\_name**, **table\_name**: pour les noms de
-   colonnes, tables, scémas. Attention car pour ces types de paramètre
+   colonnes, tables, schémas. Attention car pour ces types de paramètre
    executeWithParams() ne s'occupera pas des cotes, il faut donc les
    mettre à l'avance ex: SELECT "[column\_name]" FROM
    [schema\_name].[table\_name] WHERE table='[table\_name]'
