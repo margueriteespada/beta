@@ -1,5 +1,5 @@
 Services web
-===========================
+============
 
 .. figure:: images/api_rest.png
    :alt: API REST vMap
@@ -101,8 +101,8 @@ autre utilisateur.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Lorsqu'on utilise régulièrement l'API-REST il est possible que l'on soit
-confronté à des problèmes des longueur des URL: au bout d ún certain
-nombre de caractères, les navigateurs refuseront d'executer la requête
+confronté à des problèmes des longueur des URL: au bout d un certain
+nombre de caractères, les navigateurs refuseront d’exécuter la requête
 et afficheront l'erreur suivante:
 
 ::
@@ -112,7 +112,7 @@ et afficheront l'erreur suivante:
 Pour palier à cela, nous avons mis en place l'entête
 X-HTTP-Method-Override qui sert à envoyer une requête de type POST avec
 des paramètres figurant dans le body (sans limite de taille) et de les
-faire interṕréter comme des requêtes GET:
+faire interpréter comme des requêtes GET:
 
 ::
 
@@ -137,7 +137,7 @@ données, par défaut il vaudra l'identifiant de la ressource
 Couplé au paramètre "order\_by" il permet de définir l'ordre avec les
 valeurs suivantes:
 
--  asc: ordre ascendent
+-  asc: ordre ascendant
 -  desc: ordre descendant
 
 2.2.3. limit
@@ -150,7 +150,7 @@ Si le paramètre limit est fourni, alors le tableau retourné se limitera
 ^^^^^^^^^^^^^
 
 Souvent couplé avec les paramètres "limit" et "order\_by", il peut
-permètre par exemple d'effectuer une pagination sur une liste
+permettre par exemple d'effectuer une pagination sur une liste
 
 2.2.5. attributs
 ^^^^^^^^^^^^^^^^
@@ -167,8 +167,8 @@ True/false permet de distinguer les valeurs résultantes
 2.2.7. filter
 ^^^^^^^^^^^^^
 
-Donne la possibilité à l'utilisteur de filtrer les données, pour cela il
-faudra écrire un objet JSON composé de **relations** et
+Donne la possibilité à l’utilisateur de filtrer les données, pour cela
+il faudra écrire un objet JSON composé de **relations** et
 d'\ **opérateurs**.
 
 2.2.7.1. Relations
@@ -189,10 +189,10 @@ structure suivante:
     }
 
 Ici on demande d'ajouter les filtres définis par les opérateurs celons
-la relation "AND", on autait pu également utiliser une relation "OR".
+la relation "AND", on aurait pu également utiliser une relation "OR".
 
 Il est également possible de faire dans une même requête du AND et du OR
-en incormorant une relation comme ci c'était un opérateur:
+en incorporant une relation comme ci c'était un opérateur:
 
 .. code:: json
 
@@ -219,7 +219,7 @@ l'exemple ci-après).
 Les opérateurs sont plus simples à comprendre, ils se composent de trois
 ou quatre arguments:
 
--  **column**: nom de la colonne sur laquelle appliquesr le filtre
+-  **column**: nom de la colonne sur laquelle appliquer le filtre
 -  **value**: valeur sur laquelle il faudra filtrer
 -  **compare\_operator**: type de comparaison ("=", "!=", "<>", ">=",
    "<=", ">", "<", "IN", "NOT IN", "IS NULL", "IS NOT NULL", "LIKE",
@@ -255,7 +255,7 @@ En utilisant une relation AND on peut filtrer sur plusieurs opérateurs:
         "operators":[{
             "column": "auteur",
             "compare_operator": "=",
-            "value": "laurent"
+            "value": "Laurent"
         }, {
             "column": "allume",
             "compare_operator": "=",
@@ -294,7 +294,7 @@ relation:
 
 --------------
 
-En utilisant des relations imbiquées on peut effectuer des filtres
+En utilisant des relations imbriquées on peut effectuer des filtres
 complexes:
 
 .. code:: json
@@ -379,7 +379,7 @@ suivies ou précédées du caractère "%":
 
 --------------
 
-En ulilisant "compare\_operator\_options.case\_insensitive" sur un type
+En utilisant "compare\_operator\_options.case\_insensitive" sur un type
 "LIKE" on peut rendre le filtre insensible à la casse:
 
 .. code:: json
@@ -431,7 +431,7 @@ On peut effectuer des intersections géométriques utilisant PostGIS:
 --------------
 
 L'option "source\_proj" utilisée ici n'est pas obligatoire mais
-conceillée si on connait le système de projection de la table:
+conseillée si on connaît le système de projection de la table:
 
 .. code:: json
 
@@ -614,7 +614,7 @@ La fonction **$this->getFields** permet de récupérer en base de données
 les informations la ville en question en utilisant le paramètre "*code*"
 passé dans l'URL.
 
-Le résultat stoqué dans **$this->aFields** sera retourné lors de la
+Le résultat stocké dans **$this->aFields** sera retourné lors de la
 requête http.
 
 3.2.2 La ressource multiple (Villes.class.inc)
@@ -631,7 +631,7 @@ requête http.
     require_once __DIR__ . '/../../class/vmlib/BdDataAccess.inc';
 
 Require de la classe mère du web service ainsi que la classe unitaire et
-les fihiers permettant l'utilisation de la base de données.
+les fichiers permettant l'utilisation de la base de données.
 
 3.2.1.2 Classe
 ''''''''''''''
@@ -753,7 +753,7 @@ instanciée.
     }
 
 Tous les paramètres génériques sont listés dans les commentaires
-swagger, et sont siponibles sur les variables \*\* $this->aPath \*\* et
+swagger, et sont disponibles sur les variables \*\* $this->aPath \*\* et
 \*\* $this->aValues \*\*.
 
 Ici c'est la fonction **genericGet()** qui est utilisée et la fonction
@@ -797,7 +797,7 @@ la ville.
         }
     }
 
-Ci dessus la fonction **executeWithParams()** permet déxecuter une
+Ci dessus la fonction **executeWithParams()** permet d’exécuter une
 requête SQL, le résultat est alors rajouté dans
 $this->aFields['monuments'].
 
@@ -805,7 +805,7 @@ $this->aFields['monuments'].
 -------------------------------
 
 Pour effectuer des requêtes SQL en PHP est est impératif d'utiliser la
-fonction executeWithParams() qui va executer une requête avec un tableau
+fonction executeWithParams() qui va exécuter une requête avec un tableau
 de paramètres passé en option.
 
 **Il ne faut surtout pas concaténer des variables à une requête SQL au

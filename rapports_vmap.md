@@ -33,7 +33,7 @@ Dans l'interface d'administration nous distinguons les éléments suivants:
 ![Administration d'un rapport vMap](images/administration_rapports.png)
 
 ### 3.1. Configuration de la définition HTML
-Dans cette partie vous allez configurer la mise en page de votre rapport, pour cela il est conceillé d'avoir trois parties:
+Dans cette partie vous allez configurer la mise en page de votre rapport, pour cela il est conseillé d'avoir trois parties:
 
  - le style: une balise style qui contiendra la définition CSS à utiliser.
  - le corps: des balises HTML permettant de faire la mise en page.
@@ -52,10 +52,10 @@ Voici un exemple permettant de faire une boucle et lister les lampes d'une route
 ```html
 <!--Description des lampes de la route-->
 <div ng-repeat="oLampe in aLampes" ng-if="oLampe.lampe_id!=undefined" class="description_box border_container">
-	<label class="fiche_label">Lampe: {{oLampe.nom}}</label>
-	<label class="fiche_label">Id: {{oLampe.lampe_id}}</label>
-	<label class="fiche_label">Puissance: {{oLampe.puissance}}</label>
-	<label class="fiche_label">Allumée: {{oLampe.allume ? 'Oui' : 'Non'}}</label>
+    <label class="fiche_label">Lampe: {{oLampe.nom}}</label>
+    <label class="fiche_label">Id: {{oLampe.lampe_id}}</label>
+    <label class="fiche_label">Puissance: {{oLampe.puissance}}</label>
+    <label class="fiche_label">Allumée: {{oLampe.allume ? 'Oui' : 'Non'}}</label>
 </div>
 ```
 
@@ -73,26 +73,26 @@ Pour cela il faudra créer en JSON un tableau contenant les différentes configu
 Exemple:
 ```json
 [{
-	"type":"map",
-	"target":"#map_image",
-	"map_id":120,
-	"resolution_coeff":1,
-	"scale_target":"map_scale"
+    "type":"map",
+    "target":"#map_image",
+    "map_id":120,
+    "resolution_coeff":1,
+    "scale_target":"map_scale"
 }, {
-	"type":"webservice",
-	"ressource":"vitis/genericquerys",
-	"params":{
-		"schema":"sig",
-		"table":"lampe",
-		"filter":"{\"column\":\"route_id\", \"compare_operator\":\"=\", \"value\": \"{{BO.route_id}}\"}"
-	},
-	"target": "aLampes"
+    "type":"webservice",
+    "ressource":"vitis/genericquerys",
+    "params":{
+        "schema":"sig",
+        "table":"lampe",
+        "filter":"{\"column\":\"route_id\", \"compare_operator\":\"=\", \"value\": \"{{BO.route_id}}\"}"
+    },
+    "target": "aLampes"
 }, {
-	"type":"object",
-	"content":{
-		"company":"Veremes"
-	},
-	"target": "scope"
+    "type":"object",
+    "content":{
+        "company":"Veremes"
+    },
+    "target": "scope"
 }]
 ```
 
@@ -107,11 +107,11 @@ Vous pouvez inclure des cartes dans vos formulaires en utilisant des objets de t
 Exemple: 
 ```json
 {
-	"type":"map",
-	"target":"#map_image",
-	"map_id":120,
-	"resolution_coeff":1,
-	"scale_target":"map_scale"
+    "type":"map",
+    "target":"#map_image",
+    "map_id":120,
+    "resolution_coeff":1,
+    "scale_target":"map_scale"
 }
 ```
 Ici on vient afficher le(s) objets métier sur la carte 120 dans la balise image "#map_image" tout en mettant son échelle dans la variable "map_scale".
@@ -122,21 +122,21 @@ Pour cela il faudra utiliser le type "webservice" et utiliser les paramètres su
 
  - ressource: la ressource à interroger
  - params: les paramètres à utiliser lors de l'interrogation
- - target: ne nom de la variable créee qui contiendra les informations retournées
+ - target: ne nom de la variable créée qui contiendra les informations retournées
 
 Important: vous pouvez tout comme dans la Définition HTML utiliser des doubles accolades pour utiliser une variable BO.
 
 Exemple: 
 ```json
 {
-	"type":"webservice",
-	"ressource":"vitis/genericquerys",
-	"params":{
-		"schema":"sig",
-		"table":"lampe",
-		"filter":"{\"column\":\"route_id\", \"compare_operator\":\"=\", \"value\": \"{{BO.route_id}}\"}"
-	},
-	"target": "aLampes"
+    "type":"webservice",
+    "ressource":"vitis/genericquerys",
+    "params":{
+        "schema":"sig",
+        "table":"lampe",
+        "filter":"{\"column\":\"route_id\", \"compare_operator\":\"=\", \"value\": \"{{BO.route_id}}\"}"
+    },
+    "target": "aLampes"
 }
 ```
 Ici on fait une requête au webservice vitis/genericquerys qui permet d'interroger de façon générique des tables. 
@@ -151,9 +151,9 @@ Vous pouvez afficher des images pré-définies en utilisant le type image et les
 Exemple: 
 ```json
 {
-	"type":"image",
-	"imageUrl":"data:image/png;base64,iVBORw0KGgoAAAANSUh...",
-	"target":"#img1"
+    "type":"image",
+    "imageUrl":"data:image/png;base64,iVBORw0KGgoAAAANSUh...",
+    "target":"#img1"
 }
 ```
 
@@ -235,7 +235,7 @@ Dans cet exemple on se situe dans un projet d'éclairage public, on y trouve deu
                     <label class="fiche_urb_label">Id: {{BO.route_id}}</label>
                     <label class="fiche_urb_label">Auteur: {{BO.auteur}}</label>
                     <label class="fiche_urb_label">Date d'édition: {{BO.date_maj}}</label>
-                    <label class="fiche_urb_label">Echelle: {{map_scale}}</label>
+                    <label class="fiche_urb_label">Échelle: {{map_scale}}</label>
                 </div>
 
                 <br>
@@ -286,42 +286,42 @@ Dans cet exemple on se situe dans un projet d'éclairage public, on y trouve deu
             if (parentCreated) {
                 html = "<div style='height: "+ (pageHeight - iTop) +"px'></div>";
                 $(html).insertBefore(parent2);
-				parent2.append('<br>');
+                parent2.append('<br>');
             }
-			parent2.append(child);
+            parent2.append(child);
         }
     });
 });
-	$('.infos_column').parent().height($('.infos_column').parent().parent().height());
+    $('.infos_column').parent().height($('.infos_column').parent().parent().height());
 </script>
 ```
 
 ### Objets JSON
 ```json
 [{
-	"type":"map",
-	"target":"#map_image",
-	"map_id":120,
-	"resolution_coeff":1,
-	"scale_target":"map_scale"
+    "type":"map",
+    "target":"#map_image",
+    "map_id":120,
+    "resolution_coeff":1,
+    "scale_target":"map_scale"
 }, {
-	"type":"webservice",
-	"ressource":"vitis/genericquerys",
-	"params":{
-		"schema":"sig",
-		"table":"lampe",
-		"filter":"{\"column\":\"route_id\", \"compare_operator\":\"=\", \"value\": \"{{BO.route_id}}\"}"
-	},
-	"target": "aLampes"
+    "type":"webservice",
+    "ressource":"vitis/genericquerys",
+    "params":{
+        "schema":"sig",
+        "table":"lampe",
+        "filter":"{\"column\":\"route_id\", \"compare_operator\":\"=\", \"value\": \"{{BO.route_id}}\"}"
+    },
+    "target": "aLampes"
 }, {
-	"type":"image",
-	"imageUrl":"data:image/png;base64,iVBORw0KGgoAAAANSUhE...",
-	"target":"#img1"
+    "type":"image",
+    "imageUrl":"data:image/png;base64,iVBORw0KGgoAAAANSUhE...",
+    "target":"#img1"
 }, {
-	"type":"object",
-	"content":{
-		"company":"Veremes"
-	},
-	"target": "scope"
+    "type":"object",
+    "content":{
+        "company":"Veremes"
+    },
+    "target": "scope"
 }]
 ```

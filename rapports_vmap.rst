@@ -56,7 +56,7 @@ suivants:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dans cette partie vous allez configurer la mise en page de votre
-rapport, pour cela il est conceillé d'avoir trois parties:
+rapport, pour cela il est conseillé d'avoir trois parties:
 
 -  le style: une balise style qui contiendra la définition CSS à
    utiliser.
@@ -189,7 +189,7 @@ utiliser les paramètres suivants:
 
 -  ressource: la ressource à interroger
 -  params: les paramètres à utiliser lors de l'interrogation
--  target: ne nom de la variable créee qui contiendra les informations
+-  target: ne nom de la variable créée qui contiendra les informations
    retournées
 
 Important: vous pouvez tout comme dans la Définition HTML utiliser des
@@ -319,7 +319,7 @@ Définition HTML
                         <label class="fiche_urb_label">Id: {{BO.route_id}}</label>
                         <label class="fiche_urb_label">Auteur: {{BO.auteur}}</label>
                         <label class="fiche_urb_label">Date d'édition: {{BO.date_maj}}</label>
-                        <label class="fiche_urb_label">Echelle: {{map_scale}}</label>
+                        <label class="fiche_urb_label">Échelle: {{map_scale}}</label>
                     </div>
 
                     <br>
