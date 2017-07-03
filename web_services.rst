@@ -818,13 +818,13 @@ variable, et fournir un tableau de variables à executeWithParams().
 Les différents formats sont:
 
 -  **number**, **string**: pour les valeurs de variables à passer entre
-   simple cotes
--  **geometry**: pour les géométries à passer entre simple cotes
+   simple quotes
+-  **geometry**: pour les géométries à passer entre simple quotes
 -  **quoted\_string**: comme string mais pour intégrer des caractères
    spéciaux ex: 'ma lampe%'
 -  **column\_name**, **schema\_name**, **table\_name**: pour les noms de
    colonnes, tables, schémas. Attention car pour ces types de paramètre
-   executeWithParams() ne s'occupera pas des cotes, il faut donc les
+   executeWithParams() ne s'occupera pas des quotes, il faut donc les
    mettre à l'avance ex: SELECT "[column\_name]" FROM
    [schema\_name].[table\_name] WHERE table='[table\_name]'
 
