@@ -1,10 +1,8 @@
-Services web (web services)
+Services web
 ===========================
 
 .. figure:: images/api_rest.png
    :alt: API REST vMap
-
-   API REST vMap
 
 1. Définition
 -------------
