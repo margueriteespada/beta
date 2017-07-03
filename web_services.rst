@@ -811,8 +811,8 @@ fonction executeWithParams() qui va executer une requête avec un tableau
 de paramètres passé en option.
 
 **Il ne faut surtout pas concaténer des variables à une requête SQL au
-risque d'exposer l'application à une faille de type
-`SQLi <https://fr.wikipedia.org/wiki/Injection_SQL>`__ .**
+risque d'exposer l'application à une faille de type**
+`SQLi <https://fr.wikipedia.org/wiki/Injection_SQL>`__
 
 Il faut écrire dans la requête une balise contenant le nom de la
 variable, et fournir un tableau de variables à executeWithParams().
