@@ -665,26 +665,3 @@ $oResult = $this->oConnection->oBd->executeWithParams($sSql, $aSQLParams);
 
 [swagger]: https://swagger.io/
 [SQLi]: https://fr.wikipedia.org/wiki/Injection_SQL
-
-
-<!-- Création d'un web service propre (customWS)
-
-    - Créer un dossier dans WS contenant les fichiers suivants
-        overview.phtml: permet d'afficher la ressource dans la page d'aide au développement
-        CustomWS.class.inc: classe mère du projet
-        CustomWS.class.sql.inc: fichier contenant les requêtes SQL du projet, doit contenir au moins les requêtes "Définition des requêtes de l'api Vitis"
-    
-    - Créer une première ressource
-        $this->aSelectedFields: champs à afficher dans la réponce
-        $this->getFields: fonction permettant de faire une requête sur un objet par le biais de son identifiant
-        $this->genericGet: fonction permettant de faire une requête GET sur une table avec divers paramètres
-            order_by
-            sort_order
-            limit
-            offset
-            attributs
-            filter
-            distinct
-
-    - Modifier la ressource Ville pour aller chercher lors d'une seconde requête les monuments de la ville
-        $this->oConnection->oBd->executeWithParams() -->
