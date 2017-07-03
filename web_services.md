@@ -634,11 +634,11 @@ Il faut écrire dans la requête une balise contenant le nom de la variable, et 
 
 Les différents formats sont:
 
-- **number**, **string**: pour les valeurs de variables à passer entre simple cotes
-- **geometry**: pour les géométries à passer entre simple cotes
+- **number**, **string**: pour les valeurs de variables à passer entre simple quotes
+- **geometry**: pour les géométries à passer entre simple quotes
 - **quoted_string**: comme string mais pour intégrer des caractères spéciaux
     ex: 'ma lampe%'
-- **column_name**, **schema_name**, **table_name**: pour les noms de colonnes, tables, schémas. Attention car pour ces types de paramètre executeWithParams() ne s'occupera pas des cotes, il faut donc les mettre à l'avance
+- **column_name**, **schema_name**, **table_name**: pour les noms de colonnes, tables, schémas. Attention car pour ces types de paramètre executeWithParams() ne s'occupera pas des quotes, il faut donc les mettre à l'avance
     ex: SELECT "[column_name]" FROM [schema_name].[table_name] WHERE table='[table_name]'
 
 
