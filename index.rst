@@ -15,7 +15,7 @@ Documentation de vmap Manuel Utilisateur
    MapServer
    calques_cartes
    objets_metiers
-   /rapports_vmap
+   Rapports objets métiers <https://github.com/margueriteespada/vmap_doc/blob/master/rapports_vmap/rapports_vmap.md>
    
    
    
