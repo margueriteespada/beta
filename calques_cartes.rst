@@ -7,7 +7,7 @@ Mode Calques et cartes
 
 
 
-Mode Calques et cartes
+Documentation du mode Calques et cartes
 
 
 
