@@ -17,5 +17,6 @@ Documentation de vmap Manuel Utilisateur
    objets_metiers
    rapports_vmap
    web_services
+   users
    
    
