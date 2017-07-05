@@ -1,8 +1,8 @@
 
-Gestion des utilisateurs
+Mode Users
 **************************
 
-Mode userS de vitis
+Mode users de vitis
 
 
 Un objet métier est une entié qui associe à un calque, les attributs d'une table de base de données. De la sorte, les attributs associés au calque sont affichables et éditables, dans le requêteur et dans le formulaire de création d'objet,  accessibles dans le mode Carte. 
