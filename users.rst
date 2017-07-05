@@ -4,7 +4,7 @@ Gestion des utilisateurs
 
 Mode users de vitis
 
-Un utilisateur GTF est un compte connu par l’application GTF qui peut se connecter à GTF et utiliser ses services. 
+Un utilisateur vMap est un compte connu par l’application vMap qui peut se connecter et utiliser ses services. 
 
 Deux profils d’utilisateurs sont à distinguer :
 
