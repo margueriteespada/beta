@@ -8,8 +8,7 @@ Documentation de vmap Manuel Utilisateur
 
 .. toctree::
    :caption: Sommaire
-   :name: principale
-   :maxdepth: 3
+   :maxdepth: 7
   
  
    installation_vmap
@@ -23,7 +22,9 @@ Documentation de vmap Manuel Utilisateur
    users
    mode/index.rst
    
+  
 
-
+Contributeurs
+=============
    
    
