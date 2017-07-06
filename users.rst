@@ -10,9 +10,9 @@ Deux profils d’utilisateurs sont à distinguer :
 
  
 
-    « Utilisateurs PostgreSQL » : utilisateurs authentifiés par la base de données interne à vmap, PostgreSQL, créés directement dans vMap. 
-    « Utilisateurs Active Directory (AD) » : utilisateurs d’un domaine et authentifiés par un annuaire Active Directory, importés dans vMap.
-
+ * Utilisateurs PostgreSQL : utilisateurs authentifiés par la base de données interne à vmap, PostgreSQL, créés directement dans vMap. 
+ 
+ * Utilisateurs Active Directory (AD) : utilisateurs d’un domaine et authentifiés par un annuaire Active Directory, importés dans vMap.
 
 
 
