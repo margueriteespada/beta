@@ -21,7 +21,28 @@ Documentation de vmap Manuel Utilisateur
    web_services
    users
  
+
+
+Utilisation de vMap : les modes
+=======================
+
+.. toctree::
+   :maxdepth: 4
+
+   mode/index.rst
+
+
+Installation de vMap
+====================
+
+.. toctree::
+   :maxdepth: 4
+
+   installation/index.rst
+
  
+ 
+   
 Contributeurs
 =============
    
