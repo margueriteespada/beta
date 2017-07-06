@@ -7,4 +7,5 @@ Modes de vMap
   users
   cartes_calques
   test
+  objet_metier
 
