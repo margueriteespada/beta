@@ -20,10 +20,8 @@ Documentation de vmap Manuel Utilisateur
    rapports_vmap
    web_services
    users
-   mode/index.rst
-   
-  
-
+ 
+ 
 Contributeurs
 =============
    
