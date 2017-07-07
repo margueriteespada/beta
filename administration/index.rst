@@ -1,4 +1,4 @@
-Configuration de vMap
+Administration de vMap
 =======================
 
 .. toctree::
