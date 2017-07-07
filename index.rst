@@ -24,7 +24,7 @@ Utilisation de vMap : les modes
 =======================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
    mode/index.rst
 
