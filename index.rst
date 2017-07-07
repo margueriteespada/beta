@@ -20,7 +20,7 @@ Installation de vMap
 
    installation/index.rst 
 
-Utilisation de vMap : les modes
+Utilisation de vMap 
 =======================
 
 .. toctree::
