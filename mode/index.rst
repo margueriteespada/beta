@@ -4,8 +4,8 @@ Utilisation de vMap
 .. toctree::
    :maxdepth: 4
 
-  users
+  
   cartes_calques
-  test
+  impression
   objet_metier
 
