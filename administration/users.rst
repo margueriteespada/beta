@@ -23,18 +23,8 @@ Le mode ‘Utilisateurs > Onglet Utilisateurs’ liste l’ensemble des utilisat
 
 
 
-2. Création d'un objet métier
+2. Création d'utlisateurs et de groupes d'un annuaire Active Directory
 ******************************************** 
-La création d'un objet métier s'opère en deux temps : 
-
-1.  La déclaration de l'objet et des paramètres d'affichage du requêteur.
-2.  La construction des formulaires d'affichage, de création, d'édition et de recherche de l'objet métier via le studio. 
-
-
-2.1. Déclaration d'un objet métier 
-+++++++++++++++++++++++++++++
-
-
 
 
 
