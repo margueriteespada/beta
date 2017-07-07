@@ -10,7 +10,13 @@ Documentation de vmap Manuel Utilisateur
    :caption: Sommaire
    :maxdepth: 4
   
- 
+Installation de vMap
+====================
+
+.. toctree::
+   :maxdepth: 4
+
+   installation/index.rst 
 
 Utilisation de vMap : les modes
 =======================
@@ -20,16 +26,7 @@ Utilisation de vMap : les modes
 
    mode/index.rst
 
-
-Installation de vMap
-====================
-
-.. toctree::
-   :maxdepth: 4
-
-   installation/index.rst
-   
-   
+     
 Admininstration de vMap 
 =======================
 
