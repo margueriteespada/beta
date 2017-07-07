@@ -14,14 +14,8 @@ Documentation de vmap Manuel Utilisateur
    installation_vmap
    utilisation_vmap
    administration_vmap
-   MapServer
-   calques_cartes
-   objets_metiers
-   rapports_vmap
-   web_services
-   users
- 
-
+   
+    
 
 Utilisation de vMap : les modes
 =======================
@@ -39,7 +33,15 @@ Installation de vMap
    :maxdepth: 2
 
    installation/index.rst
+   
+   
+Admininstration de vMap 
+=======================
 
+.. toctree::
+   :maxdepth: 2
+
+   admininstration/index.rst
  
  
    
