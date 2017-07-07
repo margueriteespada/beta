@@ -12,6 +12,8 @@ Utilisation de vMap
   
   impression
   
+  web_services
+  
   objet_metier/index.rst
 
 
