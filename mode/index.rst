@@ -5,9 +5,13 @@ Utilisation de vMap
    :maxdepth: 4
 
   modules
-  visualisation_cart
+  
+  visualisation_carto
+  
   calques_cartes
+  
   impression
+  
   objet_metier/index.rst
 
 
