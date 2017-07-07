@@ -11,7 +11,7 @@ Mode objet métier
    :caption: Sommaire
    :maxdepth: 3
   
- objet_metiers
+ objet_metier
  rapports_vmap
  
  
