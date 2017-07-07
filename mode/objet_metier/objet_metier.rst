@@ -5,7 +5,7 @@
 Gestion des objets métiers
 ************* 
 
-.. image:: liste_objets_metier.png
+.. image:: ../../liste_objets_metier.png
  :scale: 50 %
  
    
@@ -26,7 +26,7 @@ La création d'un objet métier s'opère en deux temps :
 
 2.1. Déclaration d'un objet métier 
 +++++++++++++++++++++++++++++
-.. image:: creation_objet_metier.png
+.. image:: ../../creation_objet_metier.png
  :scale: 80 %
 
 Renseigner les champs suivants : 
@@ -34,11 +34,11 @@ Renseigner les champs suivants :
 * Titre: nom de l'objet métier tel qu'il apparaîtra dans le requêteur et dans le formulaire de création d'objet
 
  
-.. image:: lampe_requeteur.png
+.. image:: ../../lampe_requeteur.png
    :align: center
    :alt: Titre de l'objet tel qu'il apparaît dans le requêteur
 
-.. image:: lampe_creation.png
+.. image:: ../../lampe_creation.png
    :scale: 50 %
    :align: center
    :alt: Titre de l'objet tel qu'il apparaît dans le formulaire de création d'objet
@@ -53,11 +53,11 @@ Renseigner les champs suivants :
 
 * SQL Summary : requête SQL pour définir les champs à afficher dans l'infobulle d'un objet : 
 
-.. image:: infobulle.png
+.. image:: ../../infobulle.png
 
 * SQL List : requête SQL pour définir les champs à afficher dans la liste des objets sélectionnés dun requêteur : 
 
-.. image:: liste_requeteur.png
+.. image:: ../../liste_requeteur.png
 
 
 
