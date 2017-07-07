@@ -12,7 +12,7 @@ Documentation de vmap Manuel Utilisateur
    
    Ce guide est le manuel utilisateur de l'application vMap développé par Veremes. 
    
-
+   Ce guide est le manuel utilisateur de l'application vMap développé par Veremes. 
 
 .. toctree::
    :maxdepth: 4
