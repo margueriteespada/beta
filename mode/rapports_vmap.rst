@@ -2,7 +2,7 @@
 Rapports objets métiers
 =======================
 
-.. figure:: images/liste_rapports_objets_metier.png
+.. figure:: ../images/liste_rapports_objets_metier.png
    :alt: Liste des rapports
 
 1. Définition
