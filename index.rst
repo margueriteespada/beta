@@ -10,8 +10,8 @@ Documentation de vmap Manuel Utilisateur
    :caption: Sommaire
    :maxdepth: 4
    
-   index.rst
-  
+   Ce guide est le manuel utilisateur de l'application vMap développé par Veremes. 
+   
 Installation de vMap
 ====================
 
