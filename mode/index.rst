@@ -7,5 +7,7 @@ Utilisation de vMap
   
   cartes_calques
   impression
-  objet_metier
+  objet_metier/index.rst
+  modules
+  visualisation_carto
 
