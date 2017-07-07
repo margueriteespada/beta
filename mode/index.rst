@@ -1,4 +1,4 @@
-Modes : Utilisation de vMap
+Utilisation de vMap
 =======================
 
 .. toctree::
