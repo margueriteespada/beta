@@ -12,25 +12,20 @@ Documentation de vmap Manuel Utilisateur
    
    Ce guide est le manuel utilisateur de l'application vMap développé par Veremes. 
    
-Installation de vMap
-====================
+
 
 .. toctree::
    :maxdepth: 4
 
    installation/index.rst 
 
-Utilisation de vMap 
-=======================
 
 .. toctree::
    :maxdepth: 3
 
    mode/index.rst
 
-     
-Administration de vMap 
-=======================
+
 
 .. toctree::
    :maxdepth: 4
@@ -38,8 +33,6 @@ Administration de vMap
    administration/index.rst
  
  
-   
-Contributeurs
-=============
+
    
    
