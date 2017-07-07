@@ -8,7 +8,7 @@ Documentation de vmap Manuel Utilisateur
 
 .. toctree::
    :caption: Sommaire
-   :maxdepth: 3
+   :maxdepth: 4
   
  
    installation_vmap
