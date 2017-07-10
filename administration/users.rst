@@ -18,7 +18,7 @@ Deux profils d’utilisateurs sont à distinguer :
 **************************************************** 
 Le mode ‘Utilisateurs > Onglet Utilisateurs’ liste l’ensemble des utilisateurs. Il permet l’ajout de nouveaux utilisateurs, leur édition et suppression. Après avoir cliqué sur ‘Ajouter un utilisateur’, le formulaire suivant s’affiche :
 
-.. image:: ../../vitis_formulaire_users.png
+.. image:: ../images/vitis_formulaire_users.png
  :scale: 80 %
 
 
