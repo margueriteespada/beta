@@ -1,7 +1,7 @@
 
 
 Gestion des utilisateurs 
-**************************
+#########################
 
 Un utilisateur vMap est un compte connu par l’application vMap qui peut se connecter et utiliser ses services. 
 
@@ -15,8 +15,9 @@ Deux profils d’utilisateurs sont à distinguer :
  
  
  
+ 
  1. Création d'utilisateurs et de groupes PostgreSQL
-**************************************************** 
+**********************************************************
 
 Le mode ‘Utilisateurs > Onglet Utilisateurs’ liste l’ensemble des utilisateurs. Il permet l’ajout de nouveaux utilisateurs, leur édition et suppression. Après avoir cliqué sur ‘Ajouter un utilisateur’, le formulaire suivant s’affiche :
 
