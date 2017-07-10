@@ -1,4 +1,4 @@
-Mode visulaisation carftographique
+Mode visualisation cartographique
 ============
 
 .. figure:: ../images/api_rest.png
