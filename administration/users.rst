@@ -29,6 +29,14 @@ Le mode ‘Utilisateurs > Onglet Utilisateurs’ liste l’ensemble des utilisat
 2. Création d'utilisateurs et de groupes d'un annuaire Active Directory
 ***********************************************************************
 
+Il est possible de gérer plusieurs domaines et d’exploiter des groupes de sécurité définis directement dans un annuaire Active Directory. 
+ 
+L’administrateur a la possibilité d’importer des utilisateurs et des groupes depuis Active Directory. Cette méthode permet d’hériter des droits issus de la gestion centralisée AD des utilisateurs au sein d’un organisme. 
+ 
+L’administrateur crée  le nouveau domaine, puis importe les utilisateurs et les groupes. L’attribution des groupes ainsi que les mots de passe des utilisateurs ne pourront pas être changés.
+
+
+ 
 
 
 
