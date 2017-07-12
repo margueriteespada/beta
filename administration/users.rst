@@ -42,6 +42,24 @@ Le mode ‘Utilisateurs> Onglet Domaines’ liste les domaines Active Directory.
 
 .. image:: ../images/vmap_AD.png
  :scale: 80 %
+ 
+ 
+ L’administrateur saisit les informations suivantes : 
+* Type, Nom et Alias du domaine : le nom de domaine utilisé pour la connexion. Par exemple,  ‘siege.entreprise.com’.
+* IP ou nom de serveur : adresse IP ou nom du serveur assurant le rôle de serveur Active Directory.
+* Dn de base de recherche (utilisateur) : point d’entrée pour la recherche des utilisateurs.
+* Dn de base de recherche (groupe) : point d’entrée pour la recherche des groupes.
+* Filtre (utilisateur) : permet de définir des filtres pour la recherche des utilisateurs.
+* Filtre (groupe) : permet de définir des filtres pour la recherche des groupes.
+* Vérifier les droits lors du lancement du robot : permet au robot de vérifier si un utilisateur du domaine possède toujours les droits lors de l’exécution du traitement. Pour cela le robot a besoin de connaître le login et le mot de passe d’un utilisateur du domaine.
+* Login : login d’un utilisateur du domaine.
+* Mot de passe : mot de passe de l’utilisateur du domaine.
+ 
+Le login et le mot de passe saisis ici permettent de vérifier les droits de l’utilisateur Active Directory lors de l’exécution du robot. 
+ 
+En cliquant sur « Créer » la procédure de création de domaine Active Directory dans GTF est finalisée. 
+ 
+
 
  
 
