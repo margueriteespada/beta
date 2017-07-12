@@ -40,13 +40,15 @@ L’administrateur crée  le nouveau domaine, puis importe les utilisateurs et l
 Le mode ‘Utilisateurs> Onglet Domaines’ liste les domaines Active Directory. Il permet de créer, modifier et supprimer des domaines. Le bouton ‘Ajouter un Domaine’ affiche le formulaire suivant. 
 
 
+
 .. image:: ../images/vmap_AD.png
- :scale: 80 %
+
  
  
  
  
  L’administrateur saisit les informations suivantes : 
+ 
 * Type, Nom et Alias du domaine : le nom de domaine utilisé pour la connexion. Par exemple,  ‘siege.entreprise.com’.
 * IP ou nom de serveur : adresse IP ou nom du serveur assurant le rôle de serveur Active Directory.
 * Dn de base de recherche (utilisateur) : point d’entrée pour la recherche des utilisateurs.
@@ -59,7 +61,7 @@ Le mode ‘Utilisateurs> Onglet Domaines’ liste les domaines Active Directory.
  
 Le login et le mot de passe saisis ici permettent de vérifier les droits de l’utilisateur Active Directory lors de l’exécution du robot. 
  
-En cliquant sur « Créer » la procédure de création de domaine Active Directory dans GTF est finalisée. 
+En cliquant sur « Créer » la procédure de création de domaine Active Directory est finalisée. 
  
 
 
