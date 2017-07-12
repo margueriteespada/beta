@@ -109,6 +109,19 @@ Pour obtenir :
 
 
 
+2.2 Import d'utilisateurs d'Active Directory
+-----------------------------------------------
+
+Dans l'onglet Utilisateurs, le bouton « Importer de l’AD » permet d’importer des utilisateurs à partir d’un serveur Active Directory.
+Une interface de connexion apparaît à l’écran. L’administrateur saisit son login et mot de passe Active Directory  afin de se connecter au domaine précédemment créé. 
+ 
+Une fois la connexion effectuée, l’administrateur GTF peut soit naviguer dans l’arborescence de l’annuaire du domaine, soit effectuer une recherche à partir de critères.
+
+
+
+
+
+
 
 
 
