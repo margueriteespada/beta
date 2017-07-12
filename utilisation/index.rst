@@ -5,4 +5,4 @@ Utilisation de vMap
    :maxdepth: 4
 
   
- visualtion_carto
+ visualisation_carto
