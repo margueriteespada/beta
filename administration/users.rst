@@ -66,6 +66,16 @@ En cliquant sur « Créer » la procédure de création de domaine Active Dire
  
 L’administrateur doit ensuite  modifier manuellement le fichier de configuration de la base de données PostgreSQL pour autoriser la connexion des utilisateurs du domaine. Dans le répertoire d’installation de PostgreSQL,  modifier à l’aide d’un éditeur de texte le fichier pg_hba.conf situé dans le dossier data
  
+.. code:: html
+
+    host    all         u_scheduler  127.0.0.1/32         trust
+    host    all             +superusers             127.0.0.1/32            md5
+    host    all             all             127.0.0.1/32            md5
+    # IPv6 local connections:
+    host    all         u_scheduler  ::1/128          trust
+    host    all             +superusers             ::1/128            md5
+    host    all             all             ::1/128                 md5
+
 
 
 
