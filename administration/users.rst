@@ -60,6 +60,11 @@ En cliquant sur « Créer » la procédure de création de domaine Active Dire
 
 .. image:: ../images/vmap_AD.png
  :scale: 80 %
+ 
+ 
+ 
+ 
+L’administrateur doit ensuite  modifier manuellement le fichier de configuration de la base de données PostgreSQL pour autoriser la connexion des utilisateurs du domaine. Dans le répertoire d’installation de PostgreSQL,  modifier à l’aide d’un éditeur de texte le fichier pg_hba.conf situé dans le dossier data
  
 
 
