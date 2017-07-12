@@ -39,11 +39,6 @@ L’administrateur crée  le nouveau domaine, puis importe les utilisateurs et l
 
 Le mode ‘Utilisateurs> Onglet Domaines’ liste les domaines Active Directory. Il permet de créer, modifier et supprimer des domaines. Le bouton ‘Ajouter un Domaine’ affiche le formulaire suivant. 
 
-.. image:: ../images/vmap_AD.png
-
- 
- 
- 
  
  L’administrateur saisit les informations suivantes : 
  
@@ -63,6 +58,8 @@ En cliquant sur « Créer » la procédure de création de domaine Active Dire
  
 
 
+.. image:: ../images/vmap_AD.png
+ :scale: 80 %
  
 
 
