@@ -11,6 +11,7 @@ Deux profils d’utilisateurs sont à distinguer :
  
  * Utilisateurs Active Directory (AD) : utilisateurs d’un domaine et authentifiés par un annuaire Active Directory, importés dans vMap.
  
+ * 
  
  
  
