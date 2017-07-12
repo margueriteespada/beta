@@ -1,4 +1,4 @@
-Utilisation de vMap.
+Guide du développeur de vMap.
 =======================
 
 .. toctree::
