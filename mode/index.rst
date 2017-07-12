@@ -6,8 +6,6 @@ Utilisation de vMap.
 
   modules
   
-  visualisation_carto
-  
   calques_cartes
   
   impression
