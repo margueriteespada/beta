@@ -5,6 +5,8 @@
 
 Documentation de vmap Manuel Utilisateur
 ====================================
+vMap est une application de webmaping permettant l'affichage de cartes géographiques sur un navigateur. 
+
 
 .. toctree::
    :caption: Sommaire
