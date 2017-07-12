@@ -34,7 +34,7 @@ L’administrateur a la possibilité d’importer des utilisateurs et des groupe
  
 L’administrateur crée  le nouveau domaine, puis importe les utilisateurs et les groupes. L’attribution des groupes ainsi que les mots de passe des utilisateurs ne pourront pas être changés.
 
-2.1 Ajout de domaines Active DIrectory
+2.1 Ajout de domaines Active Directory
 ----------------------------------------
 
 Le mode ‘Utilisateurs >Ongle t Domaines’ liste les domaines Active Directory. Il permet de créer, modifier et supprimer des domaines. Le bouton ‘Ajouter un Domaine’ affiche le formulaire suivant : 
