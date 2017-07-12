@@ -40,7 +40,7 @@ L’administrateur crée  le nouveau domaine, puis importe les utilisateurs et l
 Le mode ‘Utilisateurs> Onglet Domaines’ liste les domaines Active Directory. Il permet de créer, modifier et supprimer des domaines. Le bouton ‘Ajouter un Domaine’ affiche le formulaire suivant. 
 
  
- L’administrateur saisit les informations suivantes : 
+L’administrateur saisit les informations suivantes : 
  
 * Type, Nom et Alias du domaine : le nom de domaine utilisé pour la connexion. Par exemple,  ‘siege.entreprise.com’.
 * IP ou nom de serveur : adresse IP ou nom du serveur assurant le rôle de serveur Active Directory.
