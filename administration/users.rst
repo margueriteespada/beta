@@ -16,7 +16,7 @@ Deux profils d’utilisateurs sont à distinguer :
  
  
  
- 1. Création d'utilisateurs et de groupes PostgreSQL
+ 1) Création d'utilisateurs et de groupes PostgreSQL
 **********************************************************
 
 Le mode ‘Utilisateurs > Onglet Utilisateurs’ liste l’ensemble des utilisateurs. Il permet l’ajout de nouveaux utilisateurs, leur édition et suppression. Après avoir cliqué sur ‘Ajouter un utilisateur’, le formulaire suivant s’affiche :
@@ -26,7 +26,7 @@ Le mode ‘Utilisateurs > Onglet Utilisateurs’ liste l’ensemble des utilisat
 
 
 
-2. Création d'utilisateurs et de groupes d'un annuaire Active Directory
+2) Création d'utilisateurs et de groupes d'un annuaire Active Directory
 ***********************************************************************
 
 Il est possible de gérer plusieurs domaines et d’exploiter des groupes de sécurité définis directement dans un annuaire Active Directory. 
