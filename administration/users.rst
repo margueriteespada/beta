@@ -86,8 +86,8 @@ Vous devez rajouter les deux lignes suivantes :
 
 .. code:: html
 
-host    all         +gtf_nomdomaine  127.0.0.1/32      ldap ldapserver=nomduserveur ldapprefix=""
-host    all         +gtf_nomdomaine  ::1/128      ldap ldapserver=nomduserveur ldapprefix=""
+    host    all         +gtf_nomdomaine  127.0.0.1/32      ldap ldapserver=nomduserveur ldapprefix=""
+    host    all         +gtf_nomdomaine  ::1/128      ldap ldapserver=nomduserveur ldapprefix=""
 
 
 Pour obtenir : 
@@ -95,14 +95,14 @@ Pour obtenir :
 
 .. code:: html
 
-host    all         u_scheduler  127.0.0.1/32         trust
-host    all             +superusers             127.0.0.1/32            md5
-host    all         +gtf_nomdomaine  127.0.0.1/32      ldap ldapserver=nomduserveur ldapprefix=""
-host    all             all             127.0.0.1/32            md5
-# IPv6 local connections:
-host    all         u_scheduler  ::1/128          trust
-host    all             +superusers             ::1/128            md5
-host    all         +gtf_nomdomaine  ::1/128      ldap ldapserver=nomduserveur ldapprefix=""
+    host    all         u_scheduler  127.0.0.1/32         trust
+    host    all             +superusers             127.0.0.1/32            md5
+    host    all         +gtf_nomdomaine  127.0.0.1/32      ldap ldapserver=nomduserveur ldapprefix=""
+    host    all             all             127.0.0.1/32            md5
+    # IPv6 local connections:
+    host    all         u_scheduler  ::1/128          trust
+    host    all             +superusers             ::1/128            md5
+    host    all         +gtf_nomdomaine  ::1/128      ldap ldapserver=nomduserveur ldapprefix=""
 
 
 
