@@ -1,4 +1,4 @@
-Mode visualisation cartographique
+Visualisation cartographique
 ============
 
 .. figure:: ../images/mode_visualisation.png
