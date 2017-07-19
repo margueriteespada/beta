@@ -4,8 +4,6 @@ Objets métiers
 .. figure:: ../../liste_objets_metier.png
    :alt: image
 
-   image
-
 1. Définition
 -------------
 
@@ -29,8 +27,6 @@ La création d’un objet métier s’opère en deux temps :
 .. figure:: ../../creation_objet_metier.png
    :alt: image
 
-   image
-
 Renseigner les champs suivants :
 
 -  Titre: nom de l’objet métier tel qu’il apparaîtra dans le requêteur
@@ -39,14 +35,9 @@ Renseigner les champs suivants :
 .. figure:: ../../lampe_requeteur.png
    :alt: Titre de l'objet tel qu'il apparaît dans le requêteur
 
-   Titre de l'objet tel qu'il apparaît dans le requêteur
-
 .. figure:: ../../lampe_creation.png
    :alt: Titre de l'objet tel qu'il apparaît dans le formulaire de
    création d'objet
-
-   Titre de l'objet tel qu'il apparaît dans le formulaire de création
-   d'objet
 
 -  Champs id : champ identifiant de la table.
 -  Base de données : nom de la base de données à laquelle se connecter
@@ -58,15 +49,11 @@ Renseigner les champs suivants :
 .. figure:: ../../infobulle.png
    :alt: image
 
-   image
-
 -  SQL List : requête SQL pour définir les champs à afficher dans la
    liste des objets sélectionnés d’un requêteur :
 
 .. figure:: ../../liste_requeteur.png
    :alt: image
-
-   image
 
 3. Formulaires
 --------------
@@ -87,8 +74,6 @@ recherches filtrées sur les enregistrements de l'objet métier.
 .. figure:: ../../images/formulaire_search.png
    :alt: image
 
-   image
-
 3.1.2. Formulaire d’affichage de l’objet métier (display)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -98,8 +83,6 @@ l'enregistrement sélectionné.
 
 .. figure:: ../../images/formulaire_display.png
    :alt: image
-
-   image
 
 3.1.3. Formulaire de mise à jour de l’objet métier (update)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,8 +94,6 @@ en édition.
 .. figure:: ../../images/formulaire_update.png
    :alt: image
 
-   image
-
 3.1.4. Formulaire de création de l’objet métier (insert)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -123,8 +104,6 @@ insérer.
 
 .. figure:: ../../images/formulaire_insert.png
    :alt: image
-
-   image
 
 3.2 Studio
 ~~~~~~~~~~
@@ -138,8 +117,6 @@ lors de l'édition d'un objet métier.
 
 .. figure:: ../../images/formulaire_studio.png
    :alt: image
-
-   image
 
 3.2.1. Génération automatique des formulaires
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -156,24 +133,19 @@ message suivant:
 .. figure:: ../../images/formulaire_message_creation.png
    :alt: image
 
-   image
-
 Ou bien, dans le **formulaire par défaut** de cliquer sur **Régénérer le
 formulaire par défaut**
 
 .. figure:: ../../images/formulaire_reset_default_button.png
    :alt: image
 
-   image
+Alors apparaîtra la fenêtre suivante où l'utilisateur peut:
 
-Alors apparaîtra la fenêtre suivante où l'utilisateur peut: \*
-Sélectionner les arguments à afficher \* Changer pour chaque champ le
-nom qui sera affiché dans le formulaire
+-  Sélectionner les arguments à afficher
+-  Changer pour chaque champ le nom qui sera affiché dans le formulaire
 
 .. figure:: ../../images/formulaire_selection_colonnes.png
    :alt: image
-
-   image
 
 3.2.2. Description du studio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -193,8 +165,6 @@ formulaire en cours d'édition.
 
 .. figure:: ../../images/formulaire_zone_fichier.png
    :alt: image
-
-   image
 
 Pour modifier un formulaire ,l'administrateur devra se placer sur
 **Perso**, sélectionner le type de formulaire sur lequel il veut
@@ -219,8 +189,6 @@ direct le formulaire en cours.
 .. figure:: ../../images/formulaire_zone_previsualisation.png
    :alt: image
 
-   image
-
 Il y a également un menu déroulant **Prévisualisation** qui permet
 l'affichage et la modification de la définition du formulaire au format
 JSON ainsi que l'ajout de JavaScript au formulaire.
@@ -239,8 +207,6 @@ même regrouper plusieurs éléments sur une même ligne.
 .. figure:: ../../images/formulaire_zone_attributs.png
    :alt: image
 
-   image
-
 Vous remarquerez que en bas de la zone il y a un bouton **Sources de
 données** qui permet d'administrer celles-ci. Ces dernières permettront
 de remplir les éléments de type liste en allant chercher les données en
@@ -256,8 +222,6 @@ type d'attribut.
 
 .. figure:: ../../images/formulaire_zone_definition.png
    :alt: image
-
-   image
 
 3.2.3. Utilisation du studio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

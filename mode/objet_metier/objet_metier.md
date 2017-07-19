@@ -91,6 +91,7 @@ Ou bien, dans le **formulaire par défaut** de cliquer sur **Régénérer le for
 ![image][10]
 
 Alors apparaîtra la fenêtre suivante où l'utilisateur peut:
+
 * Sélectionner les arguments à afficher
 * Changer pour chaque champ le nom qui sera affiché dans le formulaire
 
