@@ -13,6 +13,7 @@ Mode objet métier
   
  objet_metier
  rapports_vmap
+ cas_utilisation_studio
  
  
  
