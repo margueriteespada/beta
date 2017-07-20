@@ -162,4 +162,4 @@ Pour comprendre comment utiliser le studio vous pouvez aller voir le document [C
   [14]: ../../images/formulaire_zone_attributs.png
   [15]: ../../images/formulaire_zone_definition.png
   [16]: ../../images/formulaire_studio.png
-  [Cas concrets d'utilisation du studio dans vMap]: cas_utilisation_studio.rst
+  [Cas concrets d'utilisation du studio dans vMap]: cas_utilisation_studio.html
