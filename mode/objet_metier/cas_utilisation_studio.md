@@ -1,4 +1,4 @@
-# Cas concrets d'utilisation du studio dans vMap
+# Cas concrets d'utilisation dans vMap
 
 Ce document décrit des exemples d'utilisation du studio dans vMap, il est très utile pour comprendre le fonctionnement du studio ainsi que de vMap
 
