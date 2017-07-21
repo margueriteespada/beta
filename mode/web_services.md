@@ -5,7 +5,7 @@
 ## 1. Définition
 Les web services sont la partie back-end de l'application, ils se composent de plusieurs ressources qui permettent au client d'interroger la base de données, de lire/modifier des fichiers et d'effectuer des opérations sur la machine physique du serveur. 
 
-Dans vMap et autres produits Veremes ils sont mis en place par une API-REST cela signifie qu'on accède aux données celons des règles bien spécifiques.
+Dans vMap et autres produits Veremes ils sont mis en place par une API-REST cela signifie qu'on accède aux données selon des règles bien spécifiques.
 
 Exemple de requête permettant de lister les cartes vMap
 ```
@@ -109,7 +109,7 @@ Donne la possibilité à l’utilisateur de filtrer les données, pour cela il f
 
 ##### 2.2.7.1. Relations
 
-Les relations définissent le type de condition à utiliser celons la structure suivante:
+Les relations définissent le type de condition à utiliser selon la structure JSON suivante:
 
 ```json
 {
@@ -121,7 +121,7 @@ Les relations définissent le type de condition à utiliser celons la structure 
     }]
 }
 ```
-Ici on demande d'ajouter les filtres définis par les opérateurs celons la relation "AND", on aurait pu également utiliser une relation "OR".
+Ici on demande d'ajouter les filtres définis par les opérateurs selon la relation "AND", on aurait pu également utiliser une relation "OR".
 
 Il est également possible de faire dans une même requête du AND et du OR en incorporant une relation comme ci c'était un opérateur:
 ```json

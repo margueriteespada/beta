@@ -111,7 +111,7 @@ Pour cela il faudra utiliser le type "*Service web*" qui va effectuer une requê
 
 ### Type objet métier
 
-Il est également possible d'interroger directement un objet métier celons une des trois solutions suivantes:
+Il est également possible d'interroger directement un objet métier selon une des trois solutions suivantes:
 
 * **Form:** renvoie l’ensemble des colonnes de la table associée à l'objet métier
 * **SQL Summary:** renvoie de résultat de la requête définie par SQL Summary
@@ -121,7 +121,7 @@ Il est également possible d'interroger directement un objet métier celons une 
 
 ### Type base de données externe
 
-Plus complexe mais plus puissant, il permet d'interroger des bases de données situées à l’extérieur du serveur celons un login et un mot de passe fourni.
+Plus complexe mais plus puissant, il permet d'interroger des bases de données situées à l’extérieur du serveur selon un login et un mot de passe fourni.
 
 **Important: les login et mot de passe renseignés doivent être publics** car les utilisateurs finaux pourraient avoir accès à cette information.
 

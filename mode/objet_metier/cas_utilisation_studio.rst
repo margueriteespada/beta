@@ -185,7 +185,7 @@ Type objet métier
 ~~~~~~~~~~~~~~~~~
 
 Il est également possible d'interroger directement un objet métier
-celons une des trois solutions suivantes:
+selon une des trois solutions suivantes:
 
 -  **Form:** renvoie l’ensemble des colonnes de la table associée à
    l'objet métier
@@ -200,7 +200,7 @@ Type base de données externe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Plus complexe mais plus puissant, il permet d'interroger des bases de
-données situées à l’extérieur du serveur celons un login et un mot de
+données situées à l’extérieur du serveur selon un login et un mot de
 passe fourni.
 
 **Important: les login et mot de passe renseignés doivent être publics**

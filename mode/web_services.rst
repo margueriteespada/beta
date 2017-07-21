@@ -13,7 +13,7 @@ la base de données, de lire/modifier des fichiers et d'effectuer des
 opérations sur la machine physique du serveur.
 
 Dans vMap et autres produits Veremes ils sont mis en place par une
-API-REST cela signifie qu'on accède aux données celons des règles bien
+API-REST cela signifie qu'on accède aux données selon des règles bien
 spécifiques.
 
 Exemple de requête permettant de lister les cartes vMap
@@ -174,8 +174,8 @@ d'\ **opérateurs**.
 2.2.7.1. Relations
 ''''''''''''''''''
 
-Les relations définissent le type de condition à utiliser celons la
-structure suivante:
+Les relations définissent le type de condition à utiliser selon la
+structure JSON suivante:
 
 .. code:: json
 
@@ -188,7 +188,7 @@ structure suivante:
         }]
     }
 
-Ici on demande d'ajouter les filtres définis par les opérateurs celons
+Ici on demande d'ajouter les filtres définis par les opérateurs selon
 la relation "AND", on aurait pu également utiliser une relation "OR".
 
 Il est également possible de faire dans une même requête du AND et du OR
