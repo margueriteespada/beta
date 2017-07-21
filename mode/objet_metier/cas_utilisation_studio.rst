@@ -60,7 +60,8 @@ Exemple:
 la fin de l'URL pour effectuer une recherche Google du nom de
 l'enregistrement sélectionné.
 
-**Il est possible de concaténer une propertie avec le lien:** en écrivant **{{getPropertie('[nom de la propertie]')}}** dans l'exemple ci-dessous la valeur de la propertie "*services_alias*" est affichée dans l'info-bulle.
+**Il est possible de concaténer une propertie avec le lien:** en écrivant **{{getPropertie('[nom de la propertie]')}}**.
+Dans l'exemple ci-dessous la valeur de la propertie "*services_alias*" est affichée dans l'info-bulle.
 
 .. code:: sql
    
