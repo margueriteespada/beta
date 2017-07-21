@@ -62,7 +62,7 @@ la fin de l'URL pour effectuer une recherche Google du nom de
 l'enregistrement sélectionné.
 
 On peut également définir l'attribut *target* qui permettra de choisir
-un nouvel onglet à chaque fois si on donne pour valeur \*"\_blank"\* où
+un nouvel onglet à chaque fois si on donne pour valeur "*\_blank*" où
 alors de stipuler un nom pour utiliser toujours le même onglet.
 
 Dans le formulaire
