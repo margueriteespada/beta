@@ -1,4 +1,4 @@
-Cas concrets d'utilisation du studio dans vMap
+Cas concrets d'utilisation dans vMap
 ==============================================
 
 Ce document décrit des exemples d'utilisation du studio dans vMap, il
