@@ -57,7 +57,7 @@ Exemple:
     select nom as "Nom", '[bo_link href="https://www.google.fr/?gws_rd=cr&ei=h3hvWbHuJIORaPe3ofAG#q='||nom||'" target="_blank"]Lien vers une autre application[/bo_link]' as "Link", route_id as "Route id", auteur as "Auteur", image as "[bo_image]"  from sig.lampe
 
 **Il est possible de concaténer une des valeurs de l'enregistrement avec
-le lien: ** dans l'exemple ci-dessus la valeur *"nom"* est concaténée à
+le lien:** dans l'exemple ci-dessus la valeur "*nom*" est concaténée à
 la fin de l'URL pour effectuer une recherche Google du nom de
 l'enregistrement sélectionné.
 
