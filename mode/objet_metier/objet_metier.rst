@@ -228,4 +228,4 @@ type d'attribut.
 
 Pour comprendre comment utiliser le studio vous pouvez aller voir le
 document `Cas concrets d'utilisation du studio dans
-vMap <cas_utilisation_studio.rst>`__
+vMap <cas_utilisation_studio.html>`__
