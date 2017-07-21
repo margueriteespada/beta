@@ -56,10 +56,16 @@ Exemple:
 
     select nom as "Nom", '[bo_link href="https://www.google.fr/?gws_rd=cr&ei=h3hvWbHuJIORaPe3ofAG#q='||nom||'" target="_blank"]Lien vers une autre application[/bo_link]' as "Link", route_id as "Route id", auteur as "Auteur", image as "[bo_image]"  from sig.lampe
 
-**Il est possible de concaténer une des valeurs de l'enregistrement avec
-le lien:** dans l'exemple ci-dessus la valeur "*nom*" est concaténée à
+**Il est possible de concaténer une des valeurs de l'enregistrement avec le lien:** dans l'exemple ci-dessus la valeur "*nom*" est concaténée à
 la fin de l'URL pour effectuer une recherche Google du nom de
 l'enregistrement sélectionné.
+
+**Il est possible de concaténer une propertie avec le lien:** en écrivant **{{getPropertie('[nom de la propertie]')}}** dans l'exemple ci-dessous la valeur de la propertie "*services_alias*" est affichée dans l'info-bulle.
+
+.. code:: sql
+   
+   select nom as "Nom", route_id as "Route id", auteur as "Auteur", image as "[bo_image]", '{{getPropertie(''services_alias'')}}' as "service_alias" from sig.lampe
+
 
 On peut également définir l'attribut *target* qui permettra de choisir
 un nouvel onglet à chaque fois si on donne pour valeur "*\_blank*" où
