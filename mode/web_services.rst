@@ -817,8 +817,9 @@ variable, et fournir un tableau de variables à executeWithParams().
 
 Les différents formats sont:
 
--  **number**, **string**: pour les valeurs de variables à passer entre
+-  **string**, **number**, **integer**: pour les valeurs de variables à passer entre
    simple quotes
+-  **group**: pour les valeurs à passer entre simple quotes et séparées par des virgules
 -  **geometry**: pour les géométries à passer entre simple quotes
 -  **quoted\_string**: comme string mais pour intégrer des caractères
    spéciaux ex: 'ma lampe%'
