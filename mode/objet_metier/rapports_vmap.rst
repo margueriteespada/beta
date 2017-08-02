@@ -252,10 +252,10 @@ Définition HTML
 
     <!--Style-->
     <style>
-        #A4_landscape_template {
-            text-align: center;
-            width: 29.7cm;
-            padding: 40px;
+        .A4_landscape_page {
+          width: 29.7cm;
+          height: 21cm;
+          padding: 40px;
         }
         #map_legend{
             margin-left: 25px;
@@ -294,7 +294,7 @@ Définition HTML
             margin-top: 10px;
             margin-bottom: -10px;
         }
-        .infos_column{
+        .main_infos_column{
             height:100%; 
             width:100%;
             position: relative;
@@ -302,14 +302,18 @@ Définition HTML
             padding-right: 15px;
             padding-left: 15px;
         }
+        .infos_column {
+          height: 100%;
+          border: 1px solid black;
+        }
     </style>
 
     <!-- A4 print Template -->
-    <div id="A4_landscape_template">
+    <div id="A4_landscape_template" class="A4_landscape_page" style="text-align: center">
 
         <div class="row" style="padding-left: 10px;">
             <div class="col-xs-4">
-                <div class="border_container infos_column">
+                <div class="border_container main_infos_column infos_column">
                     <img id="img1" src="images/transparent.png">
                     <hr>
                     <h4>Fiche Route</h4>
@@ -321,7 +325,7 @@ Définition HTML
                         <label class="fiche_urb_label">Id: {{BO.route_id}}</label>
                         <label class="fiche_urb_label">Auteur: {{BO.auteur}}</label>
                         <label class="fiche_urb_label">Date d'édition: {{BO.date_maj}}</label>
-                        <label class="fiche_urb_label">Échelle: {{map_scale}}</label>
+                        <label class="fiche_urb_label">Echelle: {{map_scale}}</label>
                     </div>
 
                     <br>
@@ -344,41 +348,86 @@ Définition HTML
     </div>
 
     <script>
-      setTimeout(function () {
+    setTimeout(function () {
 
-        // Pagination: si un .child_description_box est scindé, alors il passe sur la deuxième page
-        var parent2 = null;
-            $('.child_description_box').each(function(){
-              var iTop = $(this).position().top;
-              var iHeight = $(this).height();
-              var iBottom = iTop + iHeight;
-              var pageHeight = 793.69;
-              var pageTolerance = 700;
+      var aElems = $('.child_description_box');
+      var aPages = [$('#A4_landscape_template')];
+      var currentPage = 0;
+      var aBottom = [];
+      var iTotalHeight = 0;
 
-              if(iBottom > pageTolerance){
-
-                var parentCreated = false;
-                var child = this;
-                var parent = $(child).parent();
-                var parentParent = parent.parent();
-
-                if (parent2 === null) {
-                    parent2 = parent.clone().empty();
-                    parentCreated = true
-                }
-
-                parent2.appendTo(parentParent);
-
-                if (parentCreated) {
-                    html = "<div style='height: "+ (pageHeight - iTop) +"px'></div>";
-                    $(html).insertBefore(parent2);
-                    parent2.append('<br>');
-                }
-                parent2.append(child);
-            }
+      var createPage = function() {
+        // Page
+        var newPage = document.createElement("div");
+        $(newPage).addClass('A4_landscape_page');
+        // Zone d'informations
+        var newInfosColumn = document.createElement("div");
+        $(newInfosColumn).addClass('infos_column');
+        $(newInfosColumn).css({
+          "padding": "15px"
         });
+        // Ajout des éléments
+        $(newPage).append(newInfosColumn);
+        $('#A4_landscape_template').parent().append(newPage);
+        // Sauvegarde de la page
+        aPages.push($(newPage));
+        currentPage++;
+        // Mise à jour de iTotalHeight
+        iTotalHeight = getPagesHeight();
+        return newPage;
+      }
+
+      var getBottomPositions = function(aElems) {
+        var aBottoms = [];
+        for (var i = 0; i < aElems.length; i++) {
+          var iTop = $(aElems[i]).position().top;
+          var iHeight = $(aElems[i]).height();
+          var iBottom = iTop + iHeight;
+          aBottoms.push(iBottom);
+        }
+        return aBottoms;
+      }
+
+      var getPagesHeight = function() {
+        var aPagesBotomPositions = getBottomPositions(aPages);
+        return aPagesBotomPositions[aPagesBotomPositions.length -1];
+      }
+
+      var moveElements = function(aElemsToMove, iPage) {
+        for (var i = 0; i < aElemsToMove.length; i++) {
+          $(aElemsToMove[i]).appendTo($(aPages[iPage]).find('.infos_column'));
+        }
+      }
+
+      var pagineChilds = function(){
+
+        aBottom = getBottomPositions(aElems);
+        iTotalHeight = getPagesHeight();
+
+        for (var i = 0; i < aElems.length; i++) {
+
+          // Quand un élément est plus bas que la dernière page
+          if (aBottom[i] > iTotalHeight - 20) {
+
+            // Crée une nouvelle page
+            var newPage = createPage();
+
+            // Déplace les éléments qui suivent sur la nouvelle page
+            var aElemsToMove = [];
+            for (var ii = i; ii < aElems.length; ii++) {
+              aElemsToMove.push(aElems[ii]);
+            }
+            moveElements(aElemsToMove, aPages.length - 1);
+
+            // Relance la fonction
+            pagineChilds();
+            return 0;
+          }
+        }
+      }
+
+      pagineChilds();
     });
-        $('.infos_column').parent().height($('.infos_column').parent().parent().height());
     </script>
 
 Objets JSON
