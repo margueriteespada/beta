@@ -108,7 +108,7 @@ insérer.
 3.2 Studio
 ~~~~~~~~~~
 
-Afin d'administrer ces formulaires pouvant être très complexe, nous
+Afin d'administrer ces formulaires pouvant être très complexes, nous
 avons développé un studio permettant à l'administrateur de gérer
 graphiquement les différents formulaires des différents objets métier.
 
