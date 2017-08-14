@@ -206,8 +206,7 @@ attributs, et via la case "Voir / modifier les lignes", il peut regrouper plusie
 .. figure:: ../../images/formulaire_zone_attributs.png
    :alt: image
 
-Vous remarquerez que en bas de la zone il y a un bouton **Sources de
-données** qui permet d'administrer celles-ci. Ces dernières permettront
+Le bouton **Sources de données** en bas de zone,  permet d'administrer celles-ci. Ces dernières permettront
 de remplir les éléments de type liste en allant chercher les données en
 base par exemple.
 
