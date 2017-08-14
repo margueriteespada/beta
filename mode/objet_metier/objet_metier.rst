@@ -151,7 +151,7 @@ Alors apparaîtra la fenêtre suivante où l'utilisateur peut:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Le studio est divisé en quatre zones principales permettant la gestion
-des formulaires:
+des formulaires :
 
 3.2.2.1. La zone d'administration du fichier
 ''''''''''''''''''''''''''''''''''''''''''''
@@ -193,16 +193,15 @@ Il y a également un menu déroulant **Prévisualisation** qui permet
 l'affichage et la modification de la définition du formulaire au format
 JSON ainsi que l'ajout de JavaScript au formulaire.
 
-**Attention en cas d'utilisation d'onglets: les onglets ne sont
+**Attention en cas d'utilisation d'onglets : les onglets ne sont
 volontairement pas affichés dans cette zone, ils seront affichés lors de
 l'utilisation réelle du formulaire**.
 
 3.2.2.3. La zone de gestion de mise en page
 '''''''''''''''''''''''''''''''''''''''''''
 
-Sur cette zone l'administrateur peut modifier l'ordre d'affichage des
-attributs, et en cochant la case "Voir / modifier les lignes" il peut
-même regrouper plusieurs éléments sur une même ligne.
+Dans cette zone l'administrateur peut modifier l'ordre d'affichage des
+attributs, et via la case "Voir / modifier les lignes", il peut regrouper plusieurs éléments sur une même ligne.
 
 .. figure:: ../../images/formulaire_zone_attributs.png
    :alt: image
