@@ -110,7 +110,7 @@ insérer.
 
 Afin d'administrer ces formulaires pouvant être très complexes, nous
 avons développé un studio permettant à l'administrateur de gérer
-graphiquement les différents formulaires des différents objets métier.
+graphiquement les différents formulaires des objets métier.
 
 Pour accéder au studio, il suffit de cliquer sur la section Formulaires
 lors de l'édition d'un objet métier.
@@ -121,7 +121,7 @@ lors de l'édition d'un objet métier.
 3.2.1. Génération automatique des formulaires
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La première chose à faire lorsqu'on veut créer un ensemble de formulaire
+La première chose à faire lorsqu'on veut créer un ensemble de formulaires
 est de demander à l'application de les générer en fonction des colonnes
 présentes sur la table liée. Si le typage en base de données est bien
 fait et que cela est possible, le type de champ affiché dans le
@@ -157,7 +157,7 @@ des formulaires:
 ''''''''''''''''''''''''''''''''''''''''''''
 
 Concrètement la zone la plus importante car elle permet la sauvegarde et
-l'affichage des fichiers, il y a trois types de formulaires: le
+l'affichage des fichiers. Il y a trois types de formulaires : le
 **formulaire par défaut** qui est le formulaire généré automatiquement,
 le **formulaire publié** qui est le formulaire en cours d'utilisation
 dans l'application, et enfin le **formulaire personnalisé** qui est le
@@ -166,19 +166,19 @@ formulaire en cours d'édition.
 .. figure:: ../../images/formulaire_zone_fichier.png
    :alt: image
 
-Pour modifier un formulaire ,l'administrateur devra se placer sur
-**Perso**, sélectionner le type de formulaire sur lequel il veut
-travailler (display, search, update, insert), éditer ce qu'il veut
-modifier et enfin **publier le formulaire personnalisé** car sans cela
+Pour modifier un formulaire, l'administrateur se place sur
+**Perso**, sélectionne le type de formulaire sur lequel il veut
+travailler (display, search, update, insert), édite ce qu'il veut
+modifier et enfin **publie le formulaire personnalisé** car sans cela
 les modifications ne seront pas visibles par les utilisateurs.
 
 Le menu déroulant **Fichier** donnera la possibilité de gérer les
 versions des formulaires (publier le formulaire personnalisé, régénérer
 le formulaire par défaut etc..)
 
-Le menu déroulant **Édition** permettra quand à lui de faire des actions
+Le menu déroulant **Édition** permettra quand à lui d'opérer des actions
 d'administration sur le formulaire comme par exemple la **gestion des
-onglets**
+onglets**.
 
 3.2.2.2. La zone de prévisualisation
 ''''''''''''''''''''''''''''''''''''
